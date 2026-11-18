@@ -86,6 +86,40 @@ Aby se ušetřily piny Pica, je většina periferií řízena **multiplexně**:
 - https://github.com/Apollo-Replica/DSKY/tree/main
 - https://github.com/ManoDaSilva/AGC_DSKY_Replica
 
+## Tým
+
+|Jméno|GitHub|Role|
+|-------|--------|------|
+| Adam Šimůnek | [] | - |
+| Jan Pikner | [@HansJ69](https://github.com/HansJ69) | - |
+| Jan Mareš | [@Error-30](https://github.com/Error-30) | - |
+
+## Struktura repozitáře
+
+```
+DE2-DSKY/
+├── docs/                # dokumentace, schémata, datasheety
+│   ├── datasheets/      # PDF součástek
+│   └── verb-noun.md     # tabulka implementovaných VERB/NOUN
+├── pictures/            
+├── pcb/                 # projekt desky (KiCad)
+│   └── gerbers/         # soubory pro výrobu
+├── models/              # 3D modely
+├── src/                 # firmware pro Pico
+├── LICENSE
+└── README.md
+```
+
+## Stav projektu
+
+- [ ] Návrh schématu (PCB)
+- [ ] Výběr součástek
+- [ ] Návrh PCB
+- [ ] BOM
+- [ ] Schema zapojení (přibližné)
+- [ ] Blokové schéma
+- [ ] Dokumentace a fotky
+
 ## Licence
 
 Projekt je šířen pod licencí GPL-3.0, viz soubor [LICENSE](LICENSE).
