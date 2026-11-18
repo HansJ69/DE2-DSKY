@@ -82,9 +82,9 @@ Aby se ušetřily piny Pica, je většina periferií řízena **multiplexně**:
 
 ## Zdroje a inspirace
 
--https://github.com/rrainey/DSKY-digital-indicator-replica/tree/master
--https://github.com/Apollo-Replica/DSKY/tree/main
--https://github.com/ManoDaSilva/AGC_DSKY_Replica
+- https://github.com/rrainey/DSKY-digital-indicator-replica/tree/master
+- https://github.com/Apollo-Replica/DSKY/tree/main
+- https://github.com/ManoDaSilva/AGC_DSKY_Replica
 
 ## Licence
 
