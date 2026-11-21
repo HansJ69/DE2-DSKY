@@ -90,7 +90,7 @@ Aby se ušetřily piny Pica, je většina periferií řízena **multiplexně**:
 
 |Jméno|GitHub|Role|
 |-------|--------|------|
-| Adam Šimůnek | [] | - |
+| Adam Šimůnek | [@adamsim10](https://github.com/adamsim10) | - |
 | Jan Pikner | [@HansJ69](https://github.com/HansJ69) | - |
 | Jan Mareš | [@Error-30](https://github.com/Error-30) | - |
 
