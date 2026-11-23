@@ -1,0 +1,5395 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "09b76ad5-68fd-4565-b6d6-3104af96c8bb")
+	(paper "A4")
+	(title_block
+		(title "DSKY Keyboard Matrix")
+		(date "2026-11-14")
+		(rev "A")
+		(company "Jan Pikner")
+	)
+	(lib_symbols
+		(symbol "CherryMX:CherryMX_LED"
+			(pin_names
+				(offset -3.9878)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 2.54 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CherryMX_LED"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CherryMX_LED_1_1"
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.81 -3.175) (xy -3.175 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.175) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -3.175) (xy -1.905 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.175) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy 1.27 0) (xy 1.27 -2.54) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 4.318)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "Y[0..3] shall provide a polled stimulus for pushbutton presses.  X[0..4] shall be read throughout this polling."
+		(exclude_from_sim no)
+		(at 234.95 146.05 0)
+		(size 35.56 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "9e56058b-0499-4326-83f2-c3c3d1645675")
+	)
+	(junction
+		(at 128.27 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f6ee425-3b78-43e2-a7c6-ce3b613f581c")
+	)
+	(junction
+		(at 158.75 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18a714a8-4744-4ffe-b23b-3af4a82a077e")
+	)
+	(junction
+		(at 113.03 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e11b0df-ce51-4c96-bb2c-9faafe866a76")
+	)
+	(junction
+		(at 128.27 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22c483ba-3354-49a8-80f4-7b8fe16dccc5")
+	)
+	(junction
+		(at 105.41 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26c12919-62ef-4a9c-b99a-8106f1d8671d")
+	)
+	(junction
+		(at 173.99 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a0a6947-f7a0-4b12-97a3-23462bf1d0c7")
+	)
+	(junction
+		(at 158.75 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fa1af05-87f6-4049-ae0e-d8528b0c1e67")
+	)
+	(junction
+		(at 128.27 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c4c19d0-b93e-4042-a0bb-20b6f276f154")
+	)
+	(junction
+		(at 173.99 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4688ae4a-2059-49b9-8102-7ab42db8bcc1")
+	)
+	(junction
+		(at 90.17 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "491520a1-3057-490f-bc3e-088e1ba388e6")
+	)
+	(junction
+		(at 105.41 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a247cf4-82b2-49d4-bbf9-3e5abb687a6d")
+	)
+	(junction
+		(at 173.99 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eeb116c-24db-4ffd-b38d-4185f57dabc4")
+	)
+	(junction
+		(at 113.03 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57bbb3b2-5d35-47e1-8fd8-8f7f5ac6f1fb")
+	)
+	(junction
+		(at 198.12 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b0c155b-2209-4821-8071-587ca46d5830")
+	)
+	(junction
+		(at 158.75 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "630d868e-1188-40f2-b649-0c32687ced31")
+	)
+	(junction
+		(at 135.89 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "630e1378-ab33-4645-8e4f-2878151cf85c")
+	)
+	(junction
+		(at 90.17 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7245378a-9cae-403c-8985-695ab4885030")
+	)
+	(junction
+		(at 158.75 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "784d3fe1-34c3-4d03-b6fd-550c438a99af")
+	)
+	(junction
+		(at 135.89 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8189c51c-fc3d-4df6-8457-07cce5b04852")
+	)
+	(junction
+		(at 113.03 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88e063b2-f1f6-481c-ba4b-3f8d3708567f")
+	)
+	(junction
+		(at 151.13 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c733013-ebe9-455c-a45a-bb7c326ef53a")
+	)
+	(junction
+		(at 105.41 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94653e8a-f603-4be4-8957-0eaeb5877298")
+	)
+	(junction
+		(at 135.89 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3721a29-ecac-429c-8ed4-011798d9a4e2")
+	)
+	(junction
+		(at 198.12 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ad4e11-c53c-4ac3-a10d-0933fa96e605")
+	)
+	(junction
+		(at 151.13 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0aa8f06-7726-4390-8ca7-5d7d4cfd4eb3")
+	)
+	(junction
+		(at 113.03 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d28dab3c-4ef6-45e3-a893-07d98e8df747")
+	)
+	(junction
+		(at 198.12 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dacb5a9d-3403-445c-9829-e52437d3217f")
+	)
+	(junction
+		(at 90.17 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8980ab1-3449-42a2-b46d-e7a71807daae")
+	)
+	(junction
+		(at 90.17 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f946ef1c-f685-4d93-b9b5-bdd7d21ea787")
+	)
+	(bus_entry
+		(at 69.85 104.14)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1490c6b6-4348-4cc3-b6df-ecd3eff4f16c")
+	)
+	(bus_entry
+		(at 135.89 52.07)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184476f0-f578-4f4a-b28f-bb65d3da967c")
+	)
+	(bus_entry
+		(at 105.41 152.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19772a3a-55e5-4985-925d-0721a87c277a")
+	)
+	(bus_entry
+		(at 151.13 152.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214cf05d-0974-4082-9e3e-1ea9b54618e6")
+	)
+	(bus_entry
+		(at 90.17 120.65)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3698ef0d-a4ec-48bd-a82c-4000cb625540")
+	)
+	(bus_entry
+		(at 90.17 74.93)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb80710-9a7e-4d84-93c9-0a0fa9755ca2")
+	)
+	(bus_entry
+		(at 135.89 120.65)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4891ecdb-28e2-441e-af80-e4178238f1d1")
+	)
+	(bus_entry
+		(at 158.75 120.65)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3a1b19-96e5-4261-a525-38770f2ea935")
+	)
+	(bus_entry
+		(at 158.75 52.07)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651db792-7ed7-43fc-81dc-6d4bec0b4907")
+	)
+	(bus_entry
+		(at 113.03 74.93)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816691a6-4760-4a11-8562-d3b0ef25df18")
+	)
+	(bus_entry
+		(at 69.85 58.42)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d02449-dea6-4d7d-9af9-219a41c39fb1")
+	)
+	(bus_entry
+		(at 90.17 97.79)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bc658a-5ec5-4052-9585-b6175952a13d")
+	)
+	(bus_entry
+		(at 173.99 152.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ab49f2-7cb2-4f00-9b00-99b3876953e8")
+	)
+	(bus_entry
+		(at 113.03 97.79)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b0caaf-2a88-4bad-ad9f-a7133f550d9d")
+	)
+	(bus_entry
+		(at 182.88 52.07)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d85e7a6-2b7e-489a-aa60-f4cd306a3bb5")
+	)
+	(bus_entry
+		(at 182.88 97.79)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5fe11a-3731-4408-9e93-6a3efb22063a")
+	)
+	(bus_entry
+		(at 113.03 52.07)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbf9df2-87f3-4438-92e7-2913c76f0cdd")
+	)
+	(bus_entry
+		(at 182.88 120.65)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ac3e7a-6b45-48ed-a215-2950f73dc8f3")
+	)
+	(bus_entry
+		(at 158.75 74.93)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c711f9c3-e3a7-4099-8c3c-1c5d60d08a2c")
+	)
+	(bus_entry
+		(at 182.88 74.93)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9dccabb-f053-411a-aac4-b623f7830cf1")
+	)
+	(bus_entry
+		(at 158.75 97.79)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0192fc-2277-42ff-a1f1-7fbcfd2ad0b2")
+	)
+	(bus_entry
+		(at 90.17 52.07)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe80b9d-ec09-45dc-973c-e39a09a7134b")
+	)
+	(bus_entry
+		(at 135.89 74.93)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1209cbb-42b5-4db9-980a-470c61872ded")
+	)
+	(bus_entry
+		(at 69.85 81.28)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d189c7c2-a9f6-4a5b-bc5d-45d9644f0eee")
+	)
+	(bus_entry
+		(at 128.27 152.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee6eb17-1270-4385-88da-0a83a1e469a0")
+	)
+	(bus_entry
+		(at 198.12 152.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8096379-0a1a-4184-8c2f-3d804f474d42")
+	)
+	(bus_entry
+		(at 113.03 120.65)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ffab5e-9130-491d-81de-57b3db85921a")
+	)
+	(bus_entry
+		(at 69.85 35.56)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb96028a-a787-4458-bbee-4fbd4f4fbcce")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 90.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03df36e6-3a89-458a-b119-1c2893b0e8bd")
+	)
+	(wire
+		(pts
+			(xy 113.03 73.66) (xy 113.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0619f21d-8844-4104-9b0f-babea3af0cde")
+	)
+	(wire
+		(pts
+			(xy 173.99 48.26) (xy 173.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07fc8316-1419-4d4d-b28b-4b5dde45e235")
+	)
+	(bus
+		(pts
+			(xy 87.63 123.19) (xy 180.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099651d9-5959-4a0d-8f3e-e6742b557138")
+	)
+	(bus
+		(pts
+			(xy 76.2 123.19) (xy 87.63 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3783d6-1989-49ca-ae23-a393235224ba")
+	)
+	(wire
+		(pts
+			(xy 113.03 96.52) (xy 113.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4456d6-f27e-49b9-84b6-a855f5559528")
+	)
+	(wire
+		(pts
+			(xy 173.99 93.98) (xy 173.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da697dc-a516-4b69-90c5-23f5e81afaab")
+	)
+	(wire
+		(pts
+			(xy 146.05 48.26) (xy 151.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee17fdd-ebee-4afd-a11f-4842dfde9a88")
+	)
+	(wire
+		(pts
+			(xy 158.75 106.68) (xy 182.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14409236-f440-4640-a3cd-a7d7970c7859")
+	)
+	(wire
+		(pts
+			(xy 173.99 116.84) (xy 173.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e9658b-6c29-448e-ba14-f061c3be9c9d")
+	)
+	(wire
+		(pts
+			(xy 90.17 60.96) (xy 113.03 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19290ff2-4bad-437b-b694-ee5b970c4186")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 113.03 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231a7c26-111b-453c-8a4f-b0ef9a22c56e")
+	)
+	(wire
+		(pts
+			(xy 90.17 83.82) (xy 90.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a0b3a2-9d6a-4e84-b995-1ed9bdbf148d")
+	)
+	(wire
+		(pts
+			(xy 182.88 50.8) (xy 182.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2981daef-3ea1-4d77-afa4-c5fd629705db")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3e68d8-9542-4e3d-b991-65e5d1e03b13")
+	)
+	(wire
+		(pts
+			(xy 90.17 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad89ccc-0297-4d33-a57c-2a4c48ce9d23")
+	)
+	(wire
+		(pts
+			(xy 168.91 48.26) (xy 173.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfad7c1-c607-4637-a68f-a4b56814b010")
+	)
+	(wire
+		(pts
+			(xy 193.04 48.26) (xy 198.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c47b6bb-4c91-4b82-8352-7820085a2b51")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 135.89 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c501ef4-721d-42f3-99cd-2f2cba5cde91")
+	)
+	(wire
+		(pts
+			(xy 135.89 60.96) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c990a72-8a7c-4a92-8e64-2a8701f557f4")
+	)
+	(bus
+		(pts
+			(xy 57.15 35.56) (xy 69.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8c80a3-2fee-4bbd-8a92-35a5db24b2ba")
+	)
+	(wire
+		(pts
+			(xy 193.04 71.12) (xy 198.12 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc498b6-8862-413a-b534-82c6e6a00f00")
+	)
+	(wire
+		(pts
+			(xy 90.17 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d270e9-83bd-4636-af31-923bd0dd84bc")
+	)
+	(wire
+		(pts
+			(xy 90.17 73.66) (xy 90.17 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35de7a2e-8247-48c7-82a0-9ea5a3354e00")
+	)
+	(wire
+		(pts
+			(xy 158.75 38.1) (xy 158.75 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366a188d-a262-44b1-ae4f-433c26757102")
+	)
+	(bus
+		(pts
+			(xy 87.63 77.47) (xy 180.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e5f4822-bde9-4e36-89c6-02e8e61f1bbd")
+	)
+	(bus
+		(pts
+			(xy 87.63 100.33) (xy 87.63 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416ff3cc-e63b-48bd-afc7-fd743b71b705")
+	)
+	(wire
+		(pts
+			(xy 100.33 48.26) (xy 105.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418775b8-5683-4715-8ffd-0e7808d6eff1")
+	)
+	(wire
+		(pts
+			(xy 182.88 96.52) (xy 182.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474da4f3-2f37-4f1c-b92d-9f0441e9491c")
+	)
+	(bus
+		(pts
+			(xy 107.95 154.94) (xy 207.01 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ead5a0-b832-4e93-bd0d-f6876fc8a8de")
+	)
+	(wire
+		(pts
+			(xy 105.41 116.84) (xy 105.41 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ea800d-096d-46b0-b3a6-38a240042acc")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5a97c1-0a48-4aad-93de-bb9177653eb0")
+	)
+	(wire
+		(pts
+			(xy 113.03 38.1) (xy 113.03 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c07e518-fc58-4a37-b3c2-8f38584cc502")
+	)
+	(wire
+		(pts
+			(xy 100.33 71.12) (xy 105.41 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8b68e2-bde9-4c43-85d6-eb460e88430c")
+	)
+	(bus
+		(pts
+			(xy 87.63 54.61) (xy 87.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4efa4817-fa71-4e8f-b443-bed939faf7f3")
+	)
+	(wire
+		(pts
+			(xy 128.27 71.12) (xy 128.27 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4faad754-3847-41c5-b4d9-e615a676b300")
+	)
+	(wire
+		(pts
+			(xy 113.03 50.8) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb6b130-4ec1-4c50-9c44-4b7ea6f206b0")
+	)
+	(wire
+		(pts
+			(xy 158.75 96.52) (xy 158.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548b370b-eff4-403d-b2fe-e16f813c429e")
+	)
+	(wire
+		(pts
+			(xy 135.89 119.38) (xy 135.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a93b5b-833f-42a8-9dd4-79f4193d907d")
+	)
+	(wire
+		(pts
+			(xy 182.88 83.82) (xy 182.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582650c9-79ad-46d1-a736-c3c6815984a2")
+	)
+	(wire
+		(pts
+			(xy 123.19 116.84) (xy 128.27 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1a4547-d9aa-4180-903d-55aef1fa038e")
+	)
+	(wire
+		(pts
+			(xy 90.17 60.96) (xy 90.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6c4ea2-b6fc-4c88-be40-f2e0bdea2bd3")
+	)
+	(bus
+		(pts
+			(xy 69.85 104.14) (xy 69.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645d670e-5574-43b6-9579-98d5e43c4531")
+	)
+	(wire
+		(pts
+			(xy 90.17 38.1) (xy 90.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650312f2-9492-4e8e-b5d7-fc0d5e53902a")
+	)
+	(wire
+		(pts
+			(xy 90.17 96.52) (xy 90.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678c861d-99b4-4946-9c40-85a9a5523c55")
+	)
+	(wire
+		(pts
+			(xy 100.33 93.98) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b25023a-6766-4078-bf48-e687334e642f")
+	)
+	(wire
+		(pts
+			(xy 100.33 116.84) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4c5428-b171-459c-8bc1-19ab4100ef69")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 105.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ca9ea5-14e5-4155-8aad-e65b3e4cada5")
+	)
+	(wire
+		(pts
+			(xy 105.41 48.26) (xy 105.41 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7314b8df-657b-4387-ad47-6a046353d366")
+	)
+	(wire
+		(pts
+			(xy 173.99 116.84) (xy 168.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a9f52a-6eb2-476f-8ebd-e35217057fa0")
+	)
+	(wire
+		(pts
+			(xy 90.17 119.38) (xy 90.17 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789b789c-6cd2-4077-b7c1-d7d507783e79")
+	)
+	(wire
+		(pts
+			(xy 151.13 116.84) (xy 151.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e48f96-9fa4-41e7-a707-00dd72c18290")
+	)
+	(wire
+		(pts
+			(xy 72.39 106.68) (xy 90.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d3538e-6f6d-4264-a78b-7cdb2db855bf")
+	)
+	(wire
+		(pts
+			(xy 158.75 60.96) (xy 158.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dec8667-668a-471f-a199-00b444af178a")
+	)
+	(wire
+		(pts
+			(xy 90.17 38.1) (xy 113.03 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848cfe2f-1235-4481-b076-b4da9078b953")
+	)
+	(wire
+		(pts
+			(xy 158.75 83.82) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bdff54-3536-4193-893f-c0aeacbf7652")
+	)
+	(wire
+		(pts
+			(xy 123.19 71.12) (xy 128.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c91938-62ea-4418-92bd-c03c93e71ce0")
+	)
+	(wire
+		(pts
+			(xy 198.12 93.98) (xy 198.12 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897710e4-583a-4917-a64e-668021eb2696")
+	)
+	(wire
+		(pts
+			(xy 90.17 50.8) (xy 90.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a93f4bd-645c-45bc-bafd-f8655a145c2e")
+	)
+	(wire
+		(pts
+			(xy 158.75 73.66) (xy 158.75 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa4f888-1d1e-47ff-bde5-5d8276d98452")
+	)
+	(wire
+		(pts
+			(xy 193.04 93.98) (xy 198.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0dd9a4-a0cd-4e3b-b250-878765dc19dd")
+	)
+	(wire
+		(pts
+			(xy 72.39 83.82) (xy 90.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2b8eec-658f-4366-a1c8-ebf4d13baa3c")
+	)
+	(wire
+		(pts
+			(xy 72.39 38.1) (xy 90.17 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa65226-fd0c-4c9d-bb1c-9257d6778751")
+	)
+	(wire
+		(pts
+			(xy 135.89 48.26) (xy 135.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9092715b-5314-4609-a63d-2aadf4d806ea")
+	)
+	(wire
+		(pts
+			(xy 113.03 119.38) (xy 113.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911705ef-0136-493a-9094-328381ea3193")
+	)
+	(wire
+		(pts
+			(xy 158.75 38.1) (xy 182.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94315e70-8be8-4c04-8f93-a767502c5faf")
+	)
+	(wire
+		(pts
+			(xy 182.88 60.96) (xy 182.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9736251e-cc72-41bf-a37d-220123eb103a")
+	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97da782b-107d-46ca-b582-203126751377")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c359661-c350-436d-8113-30becc71eae9")
+	)
+	(wire
+		(pts
+			(xy 198.12 71.12) (xy 198.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a016f6ac-86b3-4807-a922-601f3edb6f4d")
+	)
+	(wire
+		(pts
+			(xy 128.27 48.26) (xy 123.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4201cc9-3d68-45b7-875d-429c588268dd")
+	)
+	(wire
+		(pts
+			(xy 168.91 71.12) (xy 173.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaca1564-2b48-4c7b-8361-6c3d828a6cbd")
+	)
+	(bus
+		(pts
+			(xy 180.34 54.61) (xy 110.49 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adaab7ea-308e-4041-9d3f-ccb7033a4a18")
+	)
+	(bus
+		(pts
+			(xy 87.63 100.33) (xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0be67ce-011d-4410-9815-75b7b50a90a6")
+	)
+	(wire
+		(pts
+			(xy 135.89 116.84) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b296c317-8000-434f-9611-64a39fa47247")
+	)
+	(wire
+		(pts
+			(xy 158.75 83.82) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38de3c3-7880-4331-b980-2504db9f7512")
+	)
+	(wire
+		(pts
+			(xy 193.04 116.84) (xy 198.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54cf2b3-cc3e-42bf-a09a-d66ac3af318a")
+	)
+	(wire
+		(pts
+			(xy 173.99 71.12) (xy 173.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b552d33f-0ffc-4388-afbb-4240251854be")
+	)
+	(wire
+		(pts
+			(xy 158.75 60.96) (xy 182.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66e7bd1-5468-4116-b6fc-f91aee6c5ebf")
+	)
+	(bus
+		(pts
+			(xy 87.63 77.47) (xy 87.63 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bb126c-77f7-4ec7-9f08-1f669db9b38d")
+	)
+	(wire
+		(pts
+			(xy 158.75 119.38) (xy 158.75 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf746209-5ce4-4415-b6b5-9b41964c104d")
+	)
+	(wire
+		(pts
+			(xy 182.88 106.68) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d94770-91d4-4deb-a6aa-f3837d2dbaf7")
+	)
+	(wire
+		(pts
+			(xy 182.88 38.1) (xy 182.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b09f4e-5313-409c-a904-3f419c678b47")
+	)
+	(wire
+		(pts
+			(xy 113.03 83.82) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c943ac64-4d98-453e-bc23-b291f4e65006")
+	)
+	(wire
+		(pts
+			(xy 135.89 38.1) (xy 158.75 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cddad254-0c57-4a5d-83bc-43c727581e83")
+	)
+	(wire
+		(pts
+			(xy 135.89 60.96) (xy 158.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d070c3ad-7c44-42ab-860f-fdec6bd9707a")
+	)
+	(wire
+		(pts
+			(xy 128.27 93.98) (xy 128.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d441d2fb-cd45-4222-a537-a17df128b114")
+	)
+	(wire
+		(pts
+			(xy 113.03 38.1) (xy 135.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c96b91-2cc7-4424-b190-60e071d6c88e")
+	)
+	(wire
+		(pts
+			(xy 198.12 116.84) (xy 198.12 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f1cdaf-a44f-4864-b197-5b619ead5c4b")
+	)
+	(wire
+		(pts
+			(xy 128.27 116.84) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea96878-9d9b-4fc2-ac46-5d9019b0809b")
+	)
+	(wire
+		(pts
+			(xy 151.13 116.84) (xy 146.05 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decf7242-38b3-4205-a890-2aced48e363c")
+	)
+	(wire
+		(pts
+			(xy 151.13 48.26) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e005d19c-d23b-45a9-9ff6-d0a19974410b")
+	)
+	(wire
+		(pts
+			(xy 113.03 83.82) (xy 158.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e159db7a-8fb4-450d-8476-4bcdc05b7213")
+	)
+	(wire
+		(pts
+			(xy 128.27 116.84) (xy 128.27 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78caefb-6071-4532-a6b1-8849c61e1ea0")
+	)
+	(wire
+		(pts
+			(xy 182.88 119.38) (xy 182.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8698911-f9b0-4990-bd93-72bcbce33f06")
+	)
+	(bus
+		(pts
+			(xy 110.49 54.61) (xy 87.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87c0357-6900-4f2d-88f0-7dad820be29a")
+	)
+	(wire
+		(pts
+			(xy 135.89 50.8) (xy 135.89 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9701835-6d4d-40f8-95b7-ff1bdfd4c97c")
+	)
+	(wire
+		(pts
+			(xy 90.17 106.68) (xy 90.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae349d1-aaf0-496c-a561-0d02db3f8ae0")
+	)
+	(wire
+		(pts
+			(xy 158.75 50.8) (xy 158.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc28c80-b8e2-4e76-a57d-caaf636e30eb")
+	)
+	(wire
+		(pts
+			(xy 135.89 73.66) (xy 135.89 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf40573-f8e1-4ea0-8e1d-82d42f6d97f0")
+	)
+	(wire
+		(pts
+			(xy 151.13 71.12) (xy 151.13 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1760072-c9a7-4f9b-9782-d88b748f6d3d")
+	)
+	(wire
+		(pts
+			(xy 135.89 106.68) (xy 158.75 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bc4a8e-1b87-46cd-839c-b99838745e43")
+	)
+	(wire
+		(pts
+			(xy 198.12 116.84) (xy 198.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53c235d-314e-4a55-b688-c8ff3513340f")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6807491-aafa-46a3-b0ba-b9ff31e2a5f5")
+	)
+	(wire
+		(pts
+			(xy 158.75 106.68) (xy 158.75 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f879199a-7d48-4dca-bc29-d486aa5c86db")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 173.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cdde10-4815-400b-ae13-c230ab4f8464")
+	)
+	(wire
+		(pts
+			(xy 146.05 71.12) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdab4eb5-e9a4-4f05-95ba-6f8ffe36b81a")
+	)
+	(label "SW14"
+		(at 158.75 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "077c6be4-8f01-4c10-9704-cb93ba58d000")
+	)
+	(label "SW18"
+		(at 182.88 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23495ef3-64d1-41d6-8c1b-0ad8455824b4")
+	)
+	(label "X1"
+		(at 128.27 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25ba2df7-cdb3-4caf-8575-e5f9bc7a61fa")
+	)
+	(label "SW9"
+		(at 135.89 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2678aa7f-ead8-43bd-b48d-d64bd93ef3d5")
+	)
+	(label "SW10"
+		(at 135.89 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bee1e0d-ff69-4480-bd1d-d11f8907ecd8")
+	)
+	(label "SW19"
+		(at 182.88 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "337f5d82-8d62-4db9-bb45-a93539b466cc")
+	)
+	(label "X2"
+		(at 151.13 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "378ea059-d486-421d-87d6-88dcb1e4d925")
+	)
+	(label "Y3"
+		(at 77.47 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4789367f-1c8e-491b-953e-bca7973d5bae")
+	)
+	(label "SW17"
+		(at 182.88 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b3b31cc-b45a-4095-9c48-46a145687d79")
+	)
+	(label "SW8"
+		(at 113.03 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "551cb43a-f8c6-44c9-b6cf-9f7dd00b6bd7")
+	)
+	(label "SW15"
+		(at 158.75 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58e0c225-8ebc-4bef-8f73-693497c18aae")
+	)
+	(label "X4"
+		(at 198.12 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d704834-9527-4c7e-a3ca-3e5367c09772")
+	)
+	(label "SW3"
+		(at 90.17 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f342f31-dc32-43ff-9c71-4ee58fe84de4")
+	)
+	(label "X3"
+		(at 173.99 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63599d7c-4fb5-4177-aaba-41b599ff0e2f")
+	)
+	(label "Y1"
+		(at 78.74 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cbfba9e-b068-4ff9-889d-f01721102dac")
+	)
+	(label "SW1"
+		(at 90.17 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d8824f8-8445-47da-b2b0-cf0773a8d3c6")
+	)
+	(label "SW7"
+		(at 113.03 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83c5c771-a485-49f9-a9b6-d3c8085cf7bf")
+	)
+	(label "Y2"
+		(at 78.74 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e07d9ba-49d7-49e8-bc0b-a82286662bf3")
+	)
+	(label "SW11"
+		(at 135.89 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "941ba567-0e00-4845-aeac-3836f6a0c45c")
+	)
+	(label "SW13"
+		(at 158.75 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a275e7e0-945a-4732-8455-4045b3cb1bcb")
+	)
+	(label "SW6"
+		(at 113.03 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad5fa96a-92fc-4bb8-b2cc-d7be56ca0395")
+	)
+	(label "Y0"
+		(at 78.74 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd63a2d5-e559-425a-92c7-64dae8eca5b0")
+	)
+	(label "SW12"
+		(at 158.75 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8b4d32e-da77-4a7d-821c-a0a5cde515a2")
+	)
+	(label "X0"
+		(at 105.41 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8dc7c82-cacd-430e-87d6-cee0c4ec2dc2")
+	)
+	(label "SW16"
+		(at 182.88 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caf05712-5e94-4179-9923-0034940807ef")
+	)
+	(label "SW2"
+		(at 90.17 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd322325-9360-4e6d-acfd-8667d8c25a56")
+	)
+	(label "SW4"
+		(at 90.17 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da1637a8-8159-4074-ad3e-276580884e77")
+	)
+	(label "SW5"
+		(at 113.03 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f12ce3fb-ef28-4dc5-ab55-b113f68c4790")
+	)
+	(global_label "Y[0..3]"
+		(shape input)
+		(at 57.15 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f923a81-3711-4546-afba-ae7d940b4cb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.7542 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "X[0..4]"
+		(shape output)
+		(at 207.01 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c18d36c3-0721-439a-b825-d6afa2c84d84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.5267 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "SW[1..19]"
+		(shape input)
+		(at 76.2 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "846a46ef-1d39-4f1e-a802-9c84d92c1c23")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 100.33 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03c4b028-ed74-4291-b90a-a57cf92d1223")
+		(property "Reference" "#PWR06"
+			(at 100.33 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 100.33 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 100.33 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13a98153-d188-47ea-ba1b-3bec1d2c5467")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ae3d5b5-e82a-470b-bce5-0edcee7f13d3")
+		(property "Reference" "#PWR016"
+			(at 146.05 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 146.05 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5764daf7-72b5-4c6f-8fa0-b3a6e88e776b")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 100.33 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17db0be9-b016-4a73-9a6d-a709431a4260")
+		(property "Reference" "#PWR05"
+			(at 100.33 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 100.33 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 100.33 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "999fa2d5-23db-433a-ac3f-5f790c2cfd27")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 100.33 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1837a0b4-4413-4be2-b8ab-e22f66a0ac5a")
+		(property "Reference" "#PWR04"
+			(at 100.33 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 100.33 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 100.33 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d067bd6a-2c21-43f7-9a55-aa38edf8ec43")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19cdd85c-f2dd-4fd4-afcf-5effadedef0a")
+		(property "Reference" "#PWR012"
+			(at 146.05 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 146.05 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1c886cb-2764-42a1-ac2b-0cc9396cf727")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 140.97 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1adbc7ea-c30e-4b37-aa51-1dd87a4d74cc")
+		(property "Reference" "SW10"
+			(at 140.335 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5"
+			(at 140.335 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 140.97 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 140.97 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c054567-09f0-4781-887b-f6b746b3f6a0")
+		)
+		(pin "2"
+			(uuid "bd6c3c05-0940-4494-affe-b02d0050656b")
+		)
+		(pin "3"
+			(uuid "0f5cb2a2-b6eb-4ef4-b235-b3eee7232018")
+		)
+		(pin "4"
+			(uuid "3daaffc4-0257-43f8-9c1b-5c483fb5088c")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 193.04 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d48769b-f1e4-4681-873d-05f00afec5a9")
+		(property "Reference" "#PWR023"
+			(at 193.04 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 193.04 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 193.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13f38b24-0f9b-4b77-a3b5-d7623092b721")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28a01bc1-ef82-4ab5-95ca-5a175868f8ba")
+		(property "Reference" "#PWR013"
+			(at 146.05 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 146.05 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64b46282-b0ab-475a-99e7-1bf3ce33892e")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 193.04 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "379cd45c-419d-465d-bf00-cf848365dc56")
+		(property "Reference" "#PWR021"
+			(at 193.04 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 193.04 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 193.04 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8091a5ee-0d55-4a72-80cf-9cb060827c4a")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 187.96 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "458ad957-1044-4c68-8b99-c65c3fb240dd")
+		(property "Reference" "SW19"
+			(at 187.325 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KEYREL"
+			(at 187.325 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 187.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24708220-0993-4848-ba72-99fe52753491")
+		)
+		(pin "2"
+			(uuid "e39cb8b9-8509-4c58-a757-b753898de106")
+		)
+		(pin "3"
+			(uuid "b0b78778-5830-40d0-9e8a-3cee1886a617")
+		)
+		(pin "4"
+			(uuid "4a3e1bca-502e-4540-beec-b3875cb48283")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 95.25 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5317098c-7034-4607-b7f6-c3e11ed481e8")
+		(property "Reference" "SW2"
+			(at 94.615 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VERB"
+			(at 94.615 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4069243-407d-43b6-b64e-338f1d6c2baf")
+		)
+		(pin "2"
+			(uuid "e57a56d6-a524-4fa4-93bc-5a0e8a8371f6")
+		)
+		(pin "3"
+			(uuid "286f1e3f-019d-4f84-acca-50e72fd1fadf")
+		)
+		(pin "4"
+			(uuid "c2744b69-8d34-408a-ba7f-a705056462c8")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 118.11 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6438d4bc-6cc0-490f-b978-bc2b6cfd26d1")
+		(property "Reference" "SW5"
+			(at 117.475 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7"
+			(at 117.475 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 118.11 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cdbdd47-0733-4e84-82fe-40871400ab61")
+		)
+		(pin "2"
+			(uuid "168292ee-af02-4b29-912e-cf0af16e5390")
+		)
+		(pin "4"
+			(uuid "3ec93c4d-9835-427e-a711-1b02a1c8b6a6")
+		)
+		(pin "3"
+			(uuid "acac02c0-0578-467a-bac8-d6ad37089875")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 95.25 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7098a262-e8f8-4f11-a173-6ae964c0b07c")
+		(property "Reference" "SW4"
+			(at 94.615 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 94.615 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 95.25 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 95.25 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e943f99b-1283-4446-987c-5783b32253ff")
+		)
+		(pin "2"
+			(uuid "fd267183-363e-4e77-b8b6-8d8a360f131e")
+		)
+		(pin "4"
+			(uuid "2b89aa9a-fcd3-46b7-a4c0-6138b1019224")
+		)
+		(pin "3"
+			(uuid "16d64b18-132c-4c1a-9d5b-9298b3ae5fd2")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 187.96 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75b625cc-a25e-4f2a-82dd-aa0b74fefe64")
+		(property "Reference" "SW17"
+			(at 187.325 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ENTR"
+			(at 187.325 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 187.96 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0e5948a-535d-423d-a19f-bd27867c3766")
+		)
+		(pin "2"
+			(uuid "057256fd-684e-4273-bd86-429326b3d36d")
+		)
+		(pin "4"
+			(uuid "16c1baf4-ded3-4cbb-99a2-d95caaa56d9b")
+		)
+		(pin "3"
+			(uuid "6dd8b94a-beb0-4ea8-aede-9541aa978ee2")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 95.25 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a025123-757a-4abc-aeac-68aa6dc70708")
+		(property "Reference" "SW1"
+			(at 94.615 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+"
+			(at 94.615 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 95.25 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 95.25 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a40b0a68-7b0c-4b87-a7ff-b6b43bff3fbd")
+		)
+		(pin "2"
+			(uuid "1db003ef-3426-439c-b730-bd0eb1e1bb6a")
+		)
+		(pin "4"
+			(uuid "e6bcc36b-ce41-4fee-8f58-57c29b009dd7")
+		)
+		(pin "3"
+			(uuid "cb11d47a-9771-433f-9c68-5247053e38db")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 163.83 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8108d3c1-264b-4ff9-b081-bcd2469baba4")
+		(property "Reference" "SW13"
+			(at 163.195 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PRO"
+			(at 163.195 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 163.83 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 163.83 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e9ffee6-e8a6-4d2e-a211-b0f4a27b7074")
+		)
+		(pin "2"
+			(uuid "f6275f54-4cec-476c-b19b-0c7b66f6d751")
+		)
+		(pin "4"
+			(uuid "d9f66913-6c4e-4152-83e5-dc19c72e9fe4")
+		)
+		(pin "3"
+			(uuid "e00f8ada-1a49-4ea3-916a-887795bfbd5f")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 118.11 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85b0e518-5524-4fef-83ef-8874afcb73d3")
+		(property "Reference" "SW6"
+			(at 117.475 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-"
+			(at 117.475 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 118.11 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9007828d-c905-4cd9-8032-a410229b8c4a")
+		)
+		(pin "2"
+			(uuid "1c3924f2-752e-4842-a26e-f0d56f507808")
+		)
+		(pin "3"
+			(uuid "74a449ad-7918-4081-b0f9-f3a3ac0e818c")
+		)
+		(pin "4"
+			(uuid "fd57bcac-7517-4997-b81e-626dd63a9e49")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 100.33 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87a7f8dd-fdc7-414f-8632-99477c21bcd4")
+		(property "Reference" "#PWR07"
+			(at 100.33 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 100.3301 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 100.33 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64d1c667-470d-48e4-8823-90ea6dc15803")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ea4b3c9-0954-4830-b405-e8ae84969ce2")
+		(property "Reference" "#PWR020"
+			(at 168.91 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7361042e-d60a-4057-9174-59e2c2a7114b")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 140.97 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1181594-10e5-43a5-8240-c1b4d715c618")
+		(property "Reference" "SW9"
+			(at 140.335 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8"
+			(at 140.335 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 140.97 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 140.97 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d160751-a7e9-4e2b-a4ef-c8f269c8128d")
+		)
+		(pin "2"
+			(uuid "376c4739-c373-4e00-8a5b-db33ad1f586a")
+		)
+		(pin "3"
+			(uuid "9c624f39-5755-4b04-981f-68b9e48015a3")
+		)
+		(pin "4"
+			(uuid "b2481702-3401-4b9d-8247-5b301c12c1af")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 193.04 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9712b22-120c-44bf-a062-c86b36237e62")
+		(property "Reference" "#PWR022"
+			(at 193.04 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 193.04 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 193.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "379b76cf-1234-49d8-800d-401c20b9f02d")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "becb3c99-2d2c-43ef-adcb-843546241210")
+		(property "Reference" "#PWR019"
+			(at 168.91 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58b03aaf-c9e7-4812-871a-2842c99064f8")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 118.11 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3ec5508-ef26-481f-84b1-864b317d952c")
+		(property "Reference" "SW7"
+			(at 117.475 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4"
+			(at 117.475 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 118.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65abcffd-9a18-485a-ba73-cde2eb40f41b")
+		)
+		(pin "2"
+			(uuid "8cd44936-0a23-4e3c-8c83-0073a4ddb28f")
+		)
+		(pin "3"
+			(uuid "3b292e58-8902-44fc-87d5-b3667fb383f4")
+		)
+		(pin "4"
+			(uuid "b045d42f-e15e-48a7-add6-a46961d7379f")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 140.97 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf706fb7-e3cd-411a-9a37-a6c81cc3e6e2")
+		(property "Reference" "SW11"
+			(at 140.335 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2"
+			(at 140.335 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 140.97 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 140.97 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0c84216-5824-413e-a578-a5d1dde20310")
+		)
+		(pin "2"
+			(uuid "19773412-b5de-4903-b612-8a48f183143a")
+		)
+		(pin "3"
+			(uuid "a1dfafc2-0e84-4a07-886d-e3e2650c5a7c")
+		)
+		(pin "4"
+			(uuid "337203aa-14fa-47be-9022-7e2564822e10")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 163.83 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1be7565-442b-4b9f-a41d-a268327bb059")
+		(property "Reference" "SW14"
+			(at 163.195 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6"
+			(at 163.195 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 163.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 163.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4779416b-b716-472f-a536-5343107917ee")
+		)
+		(pin "2"
+			(uuid "13641235-19ac-4a09-ab4d-3040ac13a631")
+		)
+		(pin "3"
+			(uuid "4b4573a7-72f9-43e3-a33e-fdb3247e30b9")
+		)
+		(pin "4"
+			(uuid "e21f315e-6331-40c8-9cc8-5fabf3933be2")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5bc6723-7556-4701-8d74-fbd48ba3c5e0")
+		(property "Reference" "#PWR018"
+			(at 168.91 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcc4f12b-1261-408d-9fda-8e3bf860aa13")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 123.19 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5d5c9f3-2173-4d3f-b11a-044af2566744")
+		(property "Reference" "#PWR09"
+			(at 123.19 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 123.19 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 123.19 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8a9c02c-1ec1-4704-8a92-13fed125162e")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 193.04 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dab5e2d3-54b1-43af-99d8-a2a363fcb344")
+		(property "Reference" "#PWR024"
+			(at 193.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 193.04 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 193.04 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20f746e3-ab48-46af-8452-4586226052c7")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 95.25 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc809911-f0f3-43a3-a20e-0c2d689a6485")
+		(property "Reference" "SW3"
+			(at 94.615 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NOUN"
+			(at 94.615 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 95.25 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 95.25 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbe1c7ce-4667-4b07-a231-3c297e3ddbb8")
+		)
+		(pin "2"
+			(uuid "5ec8b6df-940c-44e7-9198-82257d81e1aa")
+		)
+		(pin "4"
+			(uuid "c2fd4eda-1a25-4ad8-9462-47b3e8868dfe")
+		)
+		(pin "3"
+			(uuid "e7f14172-52ae-4d4b-a81a-ef9da369a2a1")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 123.19 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de342ea2-4ee8-4b42-87d1-e9269296d4c8")
+		(property "Reference" "#PWR011"
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 123.19 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 123.19 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07947c92-2bdc-45c7-a3f8-3dcc3c3076d1")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 163.83 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e01cac7e-36fb-4a7c-9c4a-bf437acb068e")
+		(property "Reference" "SW15"
+			(at 163.195 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3"
+			(at 163.195 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 163.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 163.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54a3c7cf-adfe-4281-bbab-bdff9b0c5068")
+		)
+		(pin "2"
+			(uuid "8ff87a6b-4eed-45a3-8c73-bfa56ba14c30")
+		)
+		(pin "3"
+			(uuid "726f33d7-39af-45f0-95e4-45d334b2d323")
+		)
+		(pin "4"
+			(uuid "b13bdce3-eca4-4d6f-aaea-28958bec9710")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 163.83 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eddfbc68-098a-480e-a318-fdbc41f27a51")
+		(property "Reference" "SW12"
+			(at 163.195 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9"
+			(at 163.195 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 163.83 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 163.83 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acde2f7a-6489-4253-b0da-772e72ef0826")
+		)
+		(pin "2"
+			(uuid "f87a9f94-df7e-472d-b498-91e490ab95e3")
+		)
+		(pin "3"
+			(uuid "a51abc63-47da-44f2-8baf-d1be865f1284")
+		)
+		(pin "4"
+			(uuid "1afe4bbf-167d-4a37-981d-b4f512a145db")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 187.96 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3f01d00-ce74-45fd-8a45-0de8f3607261")
+		(property "Reference" "SW18"
+			(at 187.325 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RSET"
+			(at 187.325 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 187.96 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c842031-e569-464f-b1c8-12a2bab1003b")
+		)
+		(pin "2"
+			(uuid "5aca4b25-d689-444c-883c-14cf5f91435d")
+		)
+		(pin "3"
+			(uuid "545c6233-cfc1-422b-bce1-330b52b58ce0")
+		)
+		(pin "4"
+			(uuid "8abeb651-d3db-4dd3-a3ce-7679be6aca25")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 123.19 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f556cb64-96d7-432a-9dcf-6b839865e028")
+		(property "Reference" "#PWR010"
+			(at 123.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 123.19 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc5e855e-7e70-4c0d-9bd2-1441e055943d")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6e710cf-43af-4656-9510-abf49b630455")
+		(property "Reference" "#PWR017"
+			(at 168.91 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3550ac41-fd12-45de-a350-1ba5010d98dd")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 187.96 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8a00192-57e8-4d66-96b1-205a12abeeba")
+		(property "Reference" "SW16"
+			(at 187.325 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLR"
+			(at 187.325 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f11dcdfa-aafd-4348-bff5-75fdf5cf713d")
+		)
+		(pin "2"
+			(uuid "baf5ca6a-81c0-4dbe-ae0d-e5e867f497d2")
+		)
+		(pin "4"
+			(uuid "bb3c3170-d43d-4ae5-80b8-1bb6ccb90366")
+		)
+		(pin "3"
+			(uuid "b291795a-0cbc-4337-93a7-77493fca5777")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 123.19 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb70cbb5-1508-4a4f-8b7a-8fb1a7c526ba")
+		(property "Reference" "#PWR08"
+			(at 123.19 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 123.19 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 123.19 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f61a208f-f0b5-480d-a2ec-624931140077")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LED")
+		(at 118.11 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe4d5573-1656-404d-808f-8458b4152980")
+		(property "Reference" "SW8"
+			(at 117.475 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 117.475 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Libraries:CherryMX_1.00u_LED"
+			(at 118.11 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b8f3b57-36e8-47be-a521-9dd396cdd826")
+		)
+		(pin "2"
+			(uuid "ded64340-c3a9-446a-a627-f356f665bdff")
+		)
+		(pin "3"
+			(uuid "35411fe6-41f6-4202-9aad-13fdfc8bb2bd")
+		)
+		(pin "4"
+			(uuid "509b3d53-59f9-4ba5-bc01-caf3214128be")
+		)
+		(instances
+			(project "lights_keyboard"
+				(path "/f30854c1-5bc2-470d-aabe-1768a5b01b46/30cf5210-4653-431a-8c35-fb1be44fb9ec"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
