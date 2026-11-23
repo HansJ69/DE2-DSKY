@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "DSKY_led_display") (type "KiCad") (uri "D:/DE2/Projekt/DSKY-main/Boards/Libraries/DSKY_led_display.pretty") (options "") (descr ""))
+	(lib (name "Footprints") (type "KiCad") (uri "D:/DE2/Projekt/DSKY-main/Boards/Libraries/Footprints.pretty") (options "") (descr ""))
+)
