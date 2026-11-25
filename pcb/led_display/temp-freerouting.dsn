@@ -1,0 +1,1159 @@
+(pcb "/home/x/Dokumenty/DE2-DSKY/pcb/led_display/temp-freerouting.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.8-1.fc44")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  97400 -139500  33900 -139500  33900 -34000  97400 -34000
+            97400 -139500)
+    )
+    (plane GND (polygon F.Cu 0  33500 -32500  98500 -32500  98500 -141000  33500 -141000
+            33500 -32500))
+    (plane GND (polygon B.Cu 0  33500 -32500  98500 -32500  98500 -141000  33500 -141000
+            33500 -32500))
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 250)
+      (clearance 127)
+      (clearance 31.75 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Footprints:SOP64P600X175-24N"
+      (place IC8 62000 -99500 front 0 (PN SCT2024CSSG))
+      (place IC2 77500 -93500 front 0 (PN SCT2024CSSG))
+      (place IC5 46500 -71000 front 0 (PN SCT2024CSSG))
+      (place IC7 47000 -93500 front 0 (PN SCT2024CSSG))
+      (place IC1 84000 -48500 front 0 (PN SCT2024CSSG))
+      (place IC6 83000 -70500 front 0 (PN SCT2024CSSG))
+      (place IC9 50000 -112500 front 0 (PN SCT2024CSSG))
+      (place IC4 65000 -69000 front 0 (PN SCT2024CSSG))
+      (place IC3 47500 -50000 front 0 (PN SCT2024CSSG))
+      (place IC12 83500 -127500 front 0 (PN SCT2024CSSG))
+      (place IC10 75000 -112500 front 0 (PN SCT2024CSSG))
+      (place IC11 45000 -128000 front 0 (PN SCT2024CSSG))
+    )
+    (component LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (place C2 75000 -85000 front 90 (PN 4u7))
+      (place C1 82000 -41000 front 90 (PN 4u7))
+      (place C3 44500 -41500 front 90 (PN 4u7))
+      (place C10 72500 -104500 front 90 (PN 4u7))
+      (place C12 83500 -120000 front 90 (PN 4u7))
+      (place C5 44500 -64000 front 90 (PN 4u7))
+      (place C6 80000 -62500 front 90 (PN 4u7))
+      (place C7 45000 -85000 front 90 (PN 4u7))
+      (place C11 42500 -119500 front 90 (PN 4u7))
+      (place C9 47500 -104000 front 90 (PN 4u7))
+      (place C4 63000 -62000 front 90 (PN 4u7))
+      (place C8 60000 -91000 front 90 (PN 4u7))
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+      (place R7 49500 -85500 front 90 (PN 910))
+      (place R2 79500 -85000 front 90 (PN 910))
+      (place R12 89000 -120500 front 90 (PN 910))
+      (place R1 86500 -41000 front 90 (PN 910))
+      (place R9 52500 -104000 front 90 (PN 910))
+      (place R10 77000 -104500 front 90 (PN 910))
+      (place R5 48500 -64000 front 90 (PN 910))
+      (place R11 47000 -119500 front 90 (PN 910))
+      (place R8 64500 -91000 front 90 (PN 910))
+      (place R6 85000 -62500 front 90 (PN 910))
+      (place R3 50500 -41500 front 90 (PN 910))
+      (place R4 67000 -62000 front 90 (PN 910))
+    )
+    (component LED_SMD:LED_0805_2012Metric
+      (place D3 91541.6 -38862 back 180 (PN "IN-S85ATG"))
+      (place D4 77216 -38862 back 180 (PN "IN-S85ATG"))
+      (place D5 49174.4 -36830 back 180 (PN "IN-S85ATG"))
+      (place D6 40995.6 -36830 back 180 (PN "IN-S85ATG"))
+      (place D7 84582 -43332.4 back 180 (PN "IN-S85ATG"))
+      (place D8 54051.2 -39979.6 back 180 (PN "IN-S85ATG"))
+      (place D9 44653.2 -39979.6 back 180 (PN "IN-S85ATG"))
+      (place D10 91541.6 -47040.8 back 180 (PN "IN-S85ATG"))
+      (place D11 77216 -47040.8 back 180 (PN "IN-S85ATG"))
+      (place D12 84582 -49631.6 back 180 (PN "IN-S85ATG"))
+      (place D13 91541.6 -54051.2 back 180 (PN "IN-S85ATG"))
+      (place D14 77216 -54051.2 back 180 (PN "IN-S85ATG"))
+      (place D15 51409.6 -43789.6 back 180 (PN "IN-S85ATG"))
+      (place D16 40894 -43789.6 back 180 (PN "IN-S85ATG"))
+      (place D21 52425.6 -49123.6 back 180 (PN "IN-S85ATG"))
+      (place D22 42062.4 -49377.6 back 180 (PN "IN-S85ATG"))
+      (place D27 53848 -54914.8 back 180 (PN "IN-S85ATG"))
+      (place D28 43129.2 -54914.8 back 180 (PN "IN-S85ATG"))
+      (place D29 86156.8 -60960 back 180 (PN "IN-S85ATG"))
+      (place D30 76403.2 -60960 back 180 (PN "IN-S85ATG"))
+      (place D31 50596.8 -61366.4 back 180 (PN "IN-S85ATG"))
+      (place D32 40640 -61468 back 180 (PN "IN-S85ATG"))
+      (place D33 91236.8 -64109.6 back 180 (PN "IN-S85ATG"))
+      (place D34 80721.2 -64109.6 back 180 (PN "IN-S85ATG"))
+      (place D35 55524.4 -63754 back 180 (PN "IN-S85ATG"))
+      (place D36 45262.8 -63855.6 back 180 (PN "IN-S85ATG"))
+      (place D37 88392 -68224.4 back 180 (PN "IN-S85ATG"))
+      (place D38 78028.8 -68224.4 back 180 (PN "IN-S85ATG"))
+      (place D39 51308 -68224.4 back 180 (PN "IN-S85ATG"))
+      (place D40 41046.4 -68224.4 back 180 (PN "IN-S85ATG"))
+      (place D49 89662 -73761.6 back 180 (PN "IN-S85ATG"))
+      (place D50 79044.8 -73761.6 back 180 (PN "IN-S85ATG"))
+      (place D51 52578 -73761.6 back 180 (PN "IN-S85ATG"))
+      (place D52 41960.8 -73710.8 back 180 (PN "IN-S85ATG"))
+      (place D61 90830.4 -79197.2 back 180 (PN "IN-S85ATG"))
+      (place D62 80264 -79197.2 back 180 (PN "IN-S85ATG"))
+      (place D63 53441.6 -79197.2 back 180 (PN "IN-S85ATG"))
+      (place D64 43332.4 -79197.2 back 180 (PN "IN-S85ATG"))
+      (place D65 82423 -82423 back 180 (PN "IN-S85ATG"))
+      (place D66 71120 -82448.4 back 180 (PN "IN-S85ATG"))
+      (place D67 58318.4 -82448.4 back 180 (PN "IN-S85ATG"))
+      (place D68 45895.5 -82423 back 180 (PN "IN-S85ATG"))
+      (place D69 82448.4 -87426.8 back 180 (PN "IN-S85ATG"))
+      (place D70 72034.4 -87426.8 back 180 (PN "IN-S85ATG"))
+      (place D71 61772.8 -87426.8 back 180 (PN "IN-S85ATG"))
+      (place D72 51155.6 -87426.8 back 180 (PN "IN-S85ATG"))
+      (place D73 40843.2 -87426.8 back 180 (PN "IN-S85ATG"))
+      (place D85 83616.8 -93065.6 back 180 (PN "IN-S85ATG"))
+      (place D86 92100 -93000 back 180 (PN "IN-S85ATG"))
+      (place D87 73152 -93065.6 back 180 (PN "IN-S85ATG"))
+      (place D88 62788.8 -93065.6 back 180 (PN "IN-S85ATG"))
+      (place D89 52222.4 -93116.4 back 180 (PN "IN-S85ATG"))
+      (place D90 41808.4 -93065.6 back 180 (PN "IN-S85ATG"))
+      (place D101 84632.8 -98602.8 back 180 (PN "IN-S85ATG"))
+      (place D103 74371.2 -98602.8 back 180 (PN "IN-S85ATG"))
+      (place D104 63855.6 -98602.8 back 180 (PN "IN-S85ATG"))
+      (place D105 53594 -98602.8 back 180 (PN "IN-S85ATG"))
+      (place D106 43230.8 -98602.8 back 180 (PN "IN-S85ATG"))
+      (place D107 81229.2 -101752 back 180 (PN "IN-S85ATG"))
+      (place D108 69037.2 -101752 back 180 (PN "IN-S85ATG"))
+      (place D109 58369.2 -101752 back 180 (PN "IN-S85ATG"))
+      (place D110 46583.6 -101752 back 180 (PN "IN-S85ATG"))
+      (place D111 82600.8 -106782 back 180 (PN "IN-S85ATG"))
+      (place D113 71983.6 -106782 back 180 (PN "IN-S85ATG"))
+      (place D114 61722 -106782 back 180 (PN "IN-S85ATG"))
+      (place D115 51155.6 -106782 back 180 (PN "IN-S85ATG"))
+      (place D116 40487.6 -106782 back 180 (PN "IN-S85ATG"))
+      (place D127 91998.8 -112319 back 180 (PN "IN-S85ATG"))
+      (place D128 83362.8 -112319 back 180 (PN "IN-S85ATG"))
+      (place D129 73101.2 -112268 back 180 (PN "IN-S85ATG"))
+      (place D130 62687.2 -112471 back 180 (PN "IN-S85ATG"))
+      (place D131 52425.6 -112471 back 180 (PN "IN-S85ATG"))
+      (place D132 41808.4 -112319 back 180 (PN "IN-S85ATG"))
+      (place D144 84785.2 -117856 back 180 (PN "IN-S85ATG"))
+      (place D145 74269.6 -117754 back 180 (PN "IN-S85ATG"))
+      (place D146 63906.4 -118059 back 180 (PN "IN-S85ATG"))
+      (place D147 53695.6 -117805 back 180 (PN "IN-S85ATG"))
+      (place D148 43332.4 -117907 back 180 (PN "IN-S85ATG"))
+      (place D149 80568.8 -120853 back 180 (PN "IN-S85ATG"))
+      (place D150 68453 -121031 back 180 (PN "IN-S85ATG"))
+      (place D151 54864 -120853 back 180 (PN "IN-S85ATG"))
+      (place D152 45415.2 -120853 back 180 (PN "IN-S85ATG"))
+      (place D154 82397.6 -125832 back 180 (PN "IN-S85ATG"))
+      (place D155 72136 -125730 back 180 (PN "IN-S85ATG"))
+      (place D156 61214 -125832 back 180 (PN "IN-S85ATG"))
+      (place D157 51104.8 -125832 back 180 (PN "IN-S85ATG"))
+      (place D158 40843.2 -125832 back 180 (PN "IN-S85ATG"))
+      (place D163 91998.8 -131267 back 180 (PN "IN-S85ATG"))
+      (place D170 83413.6 -131420 back 180 (PN "IN-S85ATG"))
+      (place D171 73202.8 -131369 back 180 (PN "IN-S85ATG"))
+      (place D172 62331.6 -131623 back 180 (PN "IN-S85ATG"))
+      (place D173 52425.6 -131521 back 180 (PN "IN-S85ATG"))
+      (place D174 41910 -131369 back 180 (PN "IN-S85ATG"))
+      (place D186 84886.8 -136957 back 180 (PN "IN-S85ATG"))
+      (place D187 74269.6 -136957 back 180 (PN "IN-S85ATG"))
+      (place D188 64058.8 -136957 back 180 (PN "IN-S85ATG"))
+      (place D189 53746.4 -136957 back 180 (PN "IN-S85ATG"))
+      (place D190 43281.6 -136957 back 180 (PN "IN-S85ATG"))
+    )
+    (component LED_SMD:LED_0805_2012Metric::1
+      (place D17 55067.2 -46278.8 back 105 (PN "IN-S85ATG"))
+      (place D18 44602.4 -46583.6 back 105 (PN "IN-S85ATG"))
+      (place D19 48514 -46837.6 back 105 (PN "IN-S85ATG"))
+      (place D20 37693.6 -46634.4 back 105 (PN "IN-S85ATG"))
+      (place D23 50038 -52273.2 back 105 (PN "IN-S85ATG"))
+      (place D24 39268.4 -52324 back 105 (PN "IN-S85ATG"))
+      (place D25 56642 -51866.8 back 105 (PN "IN-S85ATG"))
+      (place D26 46024.8 -52120.8 back 105 (PN "IN-S85ATG"))
+      (place D41 92252.8 -70916.8 back 105 (PN "IN-S85ATG"))
+      (place D42 81737.2 -71323.2 back 105 (PN "IN-S85ATG"))
+      (place D43 85344 -70510.4 back 105 (PN "IN-S85ATG"))
+      (place D44 74828.4 -70815.2 back 105 (PN "IN-S85ATG"))
+      (place D45 55168.8 -70815.2 back 105 (PN "IN-S85ATG"))
+      (place D46 44450 -71069.2 back 105 (PN "IN-S85ATG"))
+      (place D47 48412.4 -70967.6 back 105 (PN "IN-S85ATG"))
+      (place D48 37744.4 -70713.6 back 105 (PN "IN-S85ATG"))
+      (place D53 86969.6 -76454 back 105 (PN "IN-S85ATG"))
+      (place D54 76301.6 -76301.6 back 105 (PN "IN-S85ATG"))
+      (place D55 93776.8 -76301.6 back 105 (PN "IN-S85ATG"))
+      (place D57 49784 -76250.8 back 105 (PN "IN-S85ATG"))
+      (place D58 39166.8 -76200 back 105 (PN "IN-S85ATG"))
+      (place D59 56743.6 -76454 back 105 (PN "IN-S85ATG"))
+      (place D60 46024.8 -76250.8 back 105 (PN "IN-S85ATG"))
+      (place D75 86309.2 -90220.8 back 105 (PN "IN-S85ATG"))
+      (place D76 79451.2 -90017.6 back 105 (PN "IN-S85ATG"))
+      (place D77 75742.8 -90271.6 back 105 (PN "IN-S85ATG"))
+      (place D78 65379.6 -90271.6 back 105 (PN "IN-S85ATG"))
+      (place D79 68935.6 -89865.2 back 105 (PN "IN-S85ATG"))
+      (place D80 58521.6 -89916 back 105 (PN "IN-S85ATG"))
+      (place D81 55067.2 -90322.4 back 105 (PN "IN-S85ATG"))
+      (place D82 44551.6 -90424 back 105 (PN "IN-S85ATG"))
+      (place D83 48107.6 -90017.6 back 105 (PN "IN-S85ATG"))
+      (place D84 37642.8 -89814.4 back 105 (PN "IN-S85ATG"))
+      (place D91 80873.6 -95707.2 back 105 (PN "IN-S85ATG"))
+      (place D92 87731.6 -95910.4 back 105 (PN "IN-S85ATG"))
+      (place D93 70459.6 -95656.4 back 105 (PN "IN-S85ATG"))
+      (place D94 59994.8 -95605.6 back 105 (PN "IN-S85ATG"))
+      (place D95 77165.2 -95707.2 back 105 (PN "IN-S85ATG"))
+      (place D96 66802 -95808.8 back 105 (PN "IN-S85ATG"))
+      (place D97 49631.6 -95605.6 back 105 (PN "IN-S85ATG"))
+      (place D98 39217.6 -95554.8 back 105 (PN "IN-S85ATG"))
+      (place D99 56286.4 -95504 back 105 (PN "IN-S85ATG"))
+      (place D100 45974 -95605.6 back 105 (PN "IN-S85ATG"))
+      (place D117 86055.2 -109525 back 105 (PN "IN-S85ATG"))
+      (place D118 79298.8 -109372 back 105 (PN "IN-S85ATG"))
+      (place D119 75692 -109220 back 105 (PN "IN-S85ATG"))
+      (place D120 65379.6 -109779 back 105 (PN "IN-S85ATG"))
+      (place D121 68986.4 -109372 back 105 (PN "IN-S85ATG"))
+      (place D122 58521.6 -109169 back 105 (PN "IN-S85ATG"))
+      (place D123 54965.6 -109931 back 105 (PN "IN-S85ATG"))
+      (place D124 44557.4 -109794 back 105 (PN "IN-S85ATG"))
+      (place D125 48107.6 -109220 back 105 (PN "IN-S85ATG"))
+      (place D126 37744.4 -109525 back 105 (PN "IN-S85ATG"))
+      (place D133 80822.8 -115113 back 105 (PN "IN-S85ATG"))
+      (place D134 87528.4 -115011 back 105 (PN "IN-S85ATG"))
+      (place D135 70307.2 -114910 back 105 (PN "IN-S85ATG"))
+      (place D136 60045.6 -114910 back 105 (PN "IN-S85ATG"))
+      (place D137 77063.6 -114503 back 105 (PN "IN-S85ATG"))
+      (place D138 66649.6 -114605 back 105 (PN "IN-S85ATG"))
+      (place D139 49631.6 -115011 back 105 (PN "IN-S85ATG"))
+      (place D140 39217.6 -115113 back 105 (PN "IN-S85ATG"))
+      (place D141 56286.4 -114960 back 105 (PN "IN-S85ATG"))
+      (place D142 45900 -114700 back 105 (PN "IN-S85ATG"))
+      (place D159 86207.6 -128930 back 105 (PN "IN-S85ATG"))
+      (place D160 79248 -128321 back 105 (PN "IN-S85ATG"))
+      (place D161 75793.6 -128880 back 105 (PN "IN-S85ATG"))
+      (place D162 65328.8 -128778 back 105 (PN "IN-S85ATG"))
+      (place D164 68834 -128219 back 105 (PN "IN-S85ATG"))
+      (place D165 58775.6 -129489 back 105 (PN "IN-S85ATG"))
+      (place D166 55118 -128778 back 105 (PN "IN-S85ATG"))
+      (place D167 44464.4 -128625 back 105 (PN "IN-S85ATG"))
+      (place D168 48071.2 -128218 back 105 (PN "IN-S85ATG"))
+      (place D169 37541.2 -128372 back 105 (PN "IN-S85ATG"))
+      (place D175 80873.6 -134264 back 105 (PN "IN-S85ATG"))
+      (place D177 87579.2 -134010 back 105 (PN "IN-S85ATG"))
+      (place D178 70358 -134010 back 105 (PN "IN-S85ATG"))
+      (place D179 59994.8 -134264 back 105 (PN "IN-S85ATG"))
+      (place D180 77216 -134112 back 105 (PN "IN-S85ATG"))
+      (place D181 66700.4 -133756 back 105 (PN "IN-S85ATG"))
+      (place D182 49544.4 -134060 back 105 (PN "IN-S85ATG"))
+      (place D183 38927.2 -134111 back 105 (PN "IN-S85ATG"))
+      (place D184 56540.4 -134468 back 105 (PN "IN-S85ATG"))
+      (place D185 45937.6 -134314 back 105 (PN "IN-S85ATG"))
+    )
+    (component LED_SMD:LED_0805_2012Metric::2
+      (place D56 83058 -76301.6 back 285 (PN "IN-S85ATG"))
+    )
+    (component LED_SMD:LED_0805_2012Metric::3
+      (place D74 92200 -90200 back 270 (PN "IN-S85ATG"))
+      (place D102 92100 -95707.2 back 270 (PN "IN-S85ATG"))
+      (place D112 92000 -109500 back 270 (PN "IN-S85ATG"))
+      (place D143 91978.8 -115062 back 270 (PN "IN-S85ATG"))
+      (place D153 91978.8 -128575 back 270 (PN "IN-S85ATG"))
+      (place D176 91978.8 -134264 back 270 (PN "IN-S85ATG"))
+    )
+  )
+  (library
+    (image "Footprints:SOP64P600X175-24N"
+      (outline (polygon signal 0  3720 -4615  -3720 -4615  -3720 4615  3720 4615))
+      (outline (path signal 200  -3475 4090  -1950 4090))
+      (outline (path signal 200  -1600 4325  1600 4325))
+      (outline (path signal 200  -1600 -4325  -1600 4325))
+      (outline (path signal 200  1600 4325  1600 -4325))
+      (outline (path signal 200  1600 -4325  -1600 -4325))
+      (outline (path signal 100  -1950 4325  1950 4325))
+      (outline (path signal 100  -1950 3685  -1310 4325))
+      (outline (path signal 100  -1950 -4325  -1950 4325))
+      (outline (path signal 100  1950 4325  1950 -4325))
+      (outline (path signal 100  1950 -4325  -1950 -4325))
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 1 -2712 3520)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 2 -2712 2880)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 3 -2712 2240)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 4 -2712 1600)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 5 -2712 960)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 6 -2712 320)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 7 -2712 -320)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 8 -2712 -960)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 9 -2712 -1600)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 10 -2712 -2240)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 11 -2712 -2880)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 12 -2712 -3520)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 13 2712 -3520)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 14 2712 -2880)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 15 2712 -2240)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 16 2712 -1600)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 17 2712 -960)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 18 2712 -320)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 19 2712 320)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 20 2712 960)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 21 2712 1600)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 22 2712 2240)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 23 2712 2880)
+      (pin Rect[T]Pad_440.000000x1525.000000_um (rotate 90) 24 2712 3520)
+    )
+    (image LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (outline (polygon signal 0  -1845 -945  -1845 945  1845 945  1845 -945))
+      (outline (path signal 120  1000 960  -1860 960))
+      (outline (path signal 120  -1860 960  -1860 -960))
+      (outline (path signal 120  -1860 -960  1000 -960))
+      (outline (path signal 100  1000 600  -700 600))
+      (outline (path signal 100  -700 600  -1000 300))
+      (outline (path signal 100  -1000 300  -1000 -600))
+      (outline (path signal 100  1000 -600  1000 600))
+      (outline (path signal 100  -1000 -600  1000 -600))
+      (pin RoundRect[T]Pad_1150.000000x1400.000000_250.951000_um_0.000000_0 1 -1025 0)
+      (pin RoundRect[T]Pad_1150.000000x1400.000000_250.951000_um_0.000000_0 2 1025 0)
+    )
+    (image Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+      (outline (polygon signal 0  -1845 -945  -1845 945  1845 945  1845 -945))
+      (outline (path signal 120  -227.064 735  227.064 735))
+      (outline (path signal 120  -227.064 -735  227.064 -735))
+      (outline (path signal 100  -1000 625  -1000 -625  1000 -625  1000 625  -1000 625))
+      (pin RoundRect[T]Pad_1200.000000x1400.000000_250.951000_um_0.000000_0 1 -1000 0)
+      (pin RoundRect[T]Pad_1200.000000x1400.000000_250.951000_um_0.000000_0 2 1000 0)
+    )
+    (image LED_SMD:LED_0805_2012Metric
+      (outline (polygon signal 0  1675 -945  -1675 -945  -1675 945  1675 945))
+      (outline (path signal 120  -1685 -960  1000 -960))
+      (outline (path signal 120  -1685 960  -1685 -960))
+      (outline (path signal 120  1000 960  -1685 960))
+      (outline (path signal 100  -1000 -600  1000 -600))
+      (outline (path signal 100  -1000 300  -1000 -600))
+      (outline (path signal 100  -700 600  -1000 300))
+      (outline (path signal 100  1000 -600  1000 600))
+      (outline (path signal 100  1000 600  -700 600))
+      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 1 -937.5 0)
+      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 2 937.5 0)
+    )
+    (image LED_SMD:LED_0805_2012Metric::1
+      (outline (polygon signal 0  1675 -944.999  -1675 -945  -1675 945  1675 945.001))
+      (outline (path signal 120  -1685 960  -1685 -960))
+      (outline (path signal 120  1000 960  -1685 960))
+      (outline (path signal 120  -1685 -960  1000 -960))
+      (outline (path signal 100  -700 600  -1000 300))
+      (outline (path signal 100  -1000 300  -1000 -599.999))
+      (outline (path signal 100  1000 599.999  -700 600))
+      (outline (path signal 100  -1000 -599.999  1000 -600.002))
+      (outline (path signal 100  1000 -600.002  1000 599.999))
+      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 1 -937.5 0)
+      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 2 937.5 0)
+    )
+    (image LED_SMD:LED_0805_2012Metric::2
+      (outline (polygon signal 0  -1675 944.999  1675 945  1675 -945  -1675 -945.001))
+      (outline (path signal 120  -1685 -960  1000 -960))
+      (outline (path signal 120  1000 960  -1685 960))
+      (outline (path signal 120  -1685 960  -1685 -960))
+      (outline (path signal 100  1000 -600.002  1000 599.999))
+      (outline (path signal 100  -1000 -599.999  1000 -600.002))
+      (outline (path signal 100  1000 599.999  -700 600))
+      (outline (path signal 100  -1000 300  -1000 -599.999))
+      (outline (path signal 100  -700 600  -1000 300))
+      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 1 -937.5 0)
+      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 2 937.5 0)
+    )
+    (image LED_SMD:LED_0805_2012Metric::3
+      (outline (polygon signal 0  1675 945  1675 -945  -1675 -945  -1675 945))
+      (outline (path signal 120  -1685 -960  1000 -960))
+      (outline (path signal 120  1000 960  -1685 960))
+      (outline (path signal 120  -1685 960  -1685 -960))
+      (outline (path signal 100  1000 -600  1000 600))
+      (outline (path signal 100  -1000 -600  1000 -600))
+      (outline (path signal 100  -1000 300  -1000 -600))
+      (outline (path signal 100  1000 600  -700 600))
+      (outline (path signal 100  -700 600  -1000 300))
+      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 1 -937.5 0)
+      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 2 937.5 0)
+    )
+    (padstack RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0
+      (shape (polygon F.Cu 0  -488.428 456.25  -469.803 549.884  -416.763 629.263  -337.384 682.303
+            -243.75 700.928  243.75 700.928  337.384 682.303  416.763 629.263
+            469.803 549.884  488.428 456.25  488.428 -456.25  469.803 -549.884
+            416.763 -629.263  337.384 -682.303  243.75 -700.928  -243.75 -700.928
+            -337.384 -682.303  -416.763 -629.263  -469.803 -549.884  -488.428 -456.25
+            -488.428 456.25))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1150.000000x1400.000000_250.951000_um_0.000000_0
+      (shape (polygon F.Cu 0  -575.951 450  -556.848 546.035  -502.449 627.449  -421.035 681.848
+            -324.999 700.95  325 700.951  421.035 681.848  502.449 627.449
+            556.848 546.035  575.95 449.999  575.951 -450  556.848 -546.035
+            502.449 -627.449  421.035 -681.848  324.999 -700.95  -325 -700.951
+            -421.035 -681.848  -502.449 -627.449  -556.848 -546.035  -575.95 -449.999
+            -575.951 450))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1200.000000x1400.000000_250.951000_um_0.000000_0
+      (shape (polygon F.Cu 0  -600.951 450  -581.848 546.035  -527.449 627.449  -446.035 681.848
+            -349.999 700.95  350 700.951  446.035 681.848  527.449 627.449
+            581.848 546.035  600.95 449.999  600.951 -450  581.848 -546.035
+            527.449 -627.449  446.035 -681.848  349.999 -700.95  -350 -700.951
+            -446.035 -681.848  -527.449 -627.449  -581.848 -546.035  -600.95 -449.999
+            -600.951 450))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_440.000000x1525.000000_um
+      (shape (rect F.Cu -220 -762.5 220 762.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins IC8-1 IC2-1 C2-2 C1-2 IC5-1 C3-2 C10-2 C12-2 IC7-1 R7-2 R2-2 R12-2 R1-2
+        R9-2 C5-2 IC1-1 C6-2 C7-2 R10-2 IC6-1 C11-2 C9-2 IC9-1 C4-2 R5-2 R11-2 C8-2
+        R8-2 R6-2 R3-2 IC4-1 IC3-1 IC12-1 IC10-1 IC11-1 R4-2)
+    )
+    (net "Net-(IC7-SDO)"
+      (pins IC8-2 IC7-22)
+    )
+    (net CLK
+      (pins IC8-3 IC2-3 IC5-3 IC7-3 IC1-3 IC6-3 IC9-3 IC4-3 IC3-3 IC12-3 IC10-3 IC11-3)
+    )
+    (net "LA{slash}"
+      (pins IC8-4 IC2-4 IC5-4 IC7-4 IC1-4 IC6-4 IC9-4 IC4-4 IC3-4 IC12-4 IC10-4 IC11-4)
+    )
+    (net bbus0
+      (pins IC8-5 D111-1)
+    )
+    (net bbus1
+      (pins IC8-6 D118-1)
+    )
+    (net bbus2
+      (pins IC8-7 D133-1)
+    )
+    (net bbus3
+      (pins IC8-8 D144-1)
+    )
+    (net bbus4
+      (pins IC8-9 D134-1)
+    )
+    (net bbus5
+      (pins IC8-10 D117-1)
+    )
+    (net bbus6
+      (pins IC8-11 D128-1)
+    )
+    (net bbus7
+      (pins IC8-12 D113-1)
+    )
+    (net bbus8
+      (pins IC8-13 D121-1)
+    )
+    (net bbus9
+      (pins IC8-14 D135-1)
+    )
+    (net bbus10
+      (pins IC8-15 D145-1)
+    )
+    (net bbus11
+      (pins IC8-16 D137-1)
+    )
+    (net bbus12
+      (pins IC8-17 D119-1)
+    )
+    (net bbus13
+      (pins IC8-18 D129-1)
+    )
+    (net bbus14
+      (pins IC8-19 D114-1)
+    )
+    (net bbus15
+      (pins IC8-20 D122-1)
+    )
+    (net "OE{slash}"
+      (pins IC8-21 IC2-21 IC5-21 IC7-21 IC1-21 IC6-21 IC9-21 IC4-21 IC3-21 IC12-21
+        IC10-21 IC11-21)
+    )
+    (net "Net-(IC8-SDO)"
+      (pins IC8-22 IC9-2)
+    )
+    (net "Net-(IC8-REXT)"
+      (pins IC8-23 R8-1)
+    )
+    (net +5V
+      (pins IC8-24 IC2-24 C2-1 C1-1 IC5-24 C3-1 C10-1 C12-1 IC7-24 C5-1 IC1-24 C6-1
+        C7-1 IC6-24 C11-1 C9-1 IC9-24 C4-1 C8-1 IC4-24 IC3-24 IC12-24 IC10-24 IC11-24
+        D3-2 D4-2 D5-2 D6-2 D7-2 D8-2 D9-2 D10-2 D11-2 D12-2 D13-2 D14-2 D15-2 D16-2
+        D17-2 D18-2 D19-2 D20-2 D21-2 D22-2 D23-2 D24-2 D25-2 D26-2 D27-2 D28-2 D29-2
+        D30-2 D31-2 D32-2 D33-2 D34-2 D35-2 D36-2 D37-2 D38-2 D39-2 D40-2 D41-2 D42-2
+        D43-2 D44-2 D45-2 D46-2 D47-2 D48-2 D49-2 D50-2 D51-2 D52-2 D53-2 D54-2 D55-2
+        D56-2 D57-2 D58-2 D59-2 D60-2 D61-2 D62-2 D63-2 D64-2 D65-2 D66-2 D67-2 D68-2
+        D69-2 D70-2 D71-2 D72-2 D73-2 D74-2 D75-2 D76-2 D77-2 D78-2 D79-2 D80-2 D81-2
+        D82-2 D83-2 D84-2 D85-2 D86-2 D87-2 D88-2 D89-2 D90-2 D91-2 D92-2 D93-2 D94-2
+        D95-2 D96-2 D97-2 D98-2 D99-2 D100-2 D101-2 D102-2 D103-2 D104-2 D105-2 D106-2
+        D107-2 D108-2 D109-2 D110-2 D111-2 D112-2 D113-2 D114-2 D115-2 D116-2 D117-2
+        D118-2 D119-2 D120-2 D121-2 D122-2 D123-2 D124-2 D125-2 D126-2 D127-2 D128-2
+        D129-2 D130-2 D131-2 D132-2 D133-2 D134-2 D135-2 D136-2 D137-2 D138-2 D139-2
+        D140-2 D141-2 D142-2 D143-2 D144-2 D145-2 D146-2 D147-2 D148-2 D149-2 D150-2
+        D151-2 D152-2 D153-2 D154-2 D155-2 D156-2 D157-2 D158-2 D159-2 D160-2 D161-2
+        D162-2 D163-2 D164-2 D165-2 D166-2 D167-2 D168-2 D169-2 D170-2 D171-2 D172-2
+        D173-2 D174-2 D175-2 D176-2 D177-2 D178-2 D179-2 D180-2 D181-2 D182-2 D183-2
+        D184-2 D185-2 D186-2 D187-2 D188-2 D189-2 D190-2)
+    )
+    (net "Net-(IC1-SDO)"
+      (pins IC2-2 IC1-22)
+    )
+    (net g3bus3
+      (pins IC2-5 D32-1)
+    )
+    (net g3bus2
+      (pins IC2-6 D36-1)
+    )
+    (net g3bus1
+      (pins IC2-7 D35-1)
+    )
+    (net g3bus0
+      (pins IC2-8 D31-1)
+    )
+    (net g4bus3
+      (pins IC2-9 D68-1)
+    )
+    (net g4bus2
+      (pins IC2-10 D67-1)
+    )
+    (net g4bus1
+      (pins IC2-11 D66-1)
+    )
+    (net g4bus0
+      (pins IC2-12 D65-1)
+    )
+    (net g5bus0
+      (pins IC2-13 D107-1)
+    )
+    (net g5bus1
+      (pins IC2-14 D108-1)
+    )
+    (net g5bus2
+      (pins IC2-15 D109-1)
+    )
+    (net g5bus3
+      (pins IC2-16 D110-1)
+    )
+    (net g6bus0
+      (pins IC2-17 D149-1)
+    )
+    (net g6bus1
+      (pins IC2-18 D150-1)
+    )
+    (net g6bus2
+      (pins IC2-19 D151-1)
+    )
+    (net g6bus3
+      (pins IC2-20 D152-1)
+    )
+    (net "Net-(IC2-SDO)"
+      (pins IC2-22 IC3-2)
+    )
+    (net "Net-(IC2-REXT)"
+      (pins IC2-23 R2-1)
+    )
+    (net "Net-(IC4-SDO)"
+      (pins IC5-2 IC4-22)
+    )
+    (net fbus4
+      (pins IC5-5 D59-1)
+    )
+    (net fbus5
+      (pins IC5-6 D45-1)
+    )
+    (net fbus6
+      (pins IC5-7 D51-1)
+    )
+    (net fbus7
+      (pins IC5-8 D40-1)
+    )
+    (net fbus8
+      (pins IC5-9 D48-1)
+    )
+    (net fbus9
+      (pins IC5-10 D58-1)
+    )
+    (net fbus10
+      (pins IC5-11 D64-1)
+    )
+    (net fbus11
+      (pins IC5-12 D60-1)
+    )
+    (net fbus12
+      (pins IC5-13 D46-1)
+    )
+    (net fbus13
+      (pins IC5-14 D52-1)
+    )
+    (net abus0
+      (pins IC5-15 D69-1)
+    )
+    (net abus1
+      (pins IC5-16 D76-1)
+    )
+    (net abus2
+      (pins IC5-17 D91-1)
+    )
+    (net abus3
+      (pins IC5-18 D101-1)
+    )
+    (net abus4
+      (pins IC5-19 D92-1)
+    )
+    (net abus5
+      (pins IC5-20 D75-1)
+    )
+    (net "Net-(IC5-SDO)"
+      (pins IC5-22 IC6-2)
+    )
+    (net "Net-(IC5-REXT)"
+      (pins IC5-23 R5-1)
+    )
+    (net "Net-(IC6-SDO)"
+      (pins IC7-2 IC6-22)
+    )
+    (net abus22
+      (pins IC7-5 D83-1)
+    )
+    (net abus23
+      (pins IC7-6 D97-1)
+    )
+    (net abus24
+      (pins IC7-7 D105-1)
+    )
+    (net abus25
+      (pins IC7-8 D99-1)
+    )
+    (net abus26
+      (pins IC7-9 D81-1)
+    )
+    (net abus27
+      (pins IC7-10 D89-1)
+    )
+    (net abus28
+      (pins IC7-11 D73-1)
+    )
+    (net abus29
+      (pins IC7-12 D84-1)
+    )
+    (net abus30
+      (pins IC7-13 D98-1)
+    )
+    (net abus31
+      (pins IC7-14 D106-1)
+    )
+    (net abus32
+      (pins IC7-15 D100-1)
+    )
+    (net abus33
+      (pins IC7-16 D82-1)
+    )
+    (net abus34
+      (pins IC7-17 D90-1)
+    )
+    (net sabus0
+      (pins IC7-18 D74-1)
+    )
+    (net sabus1
+      (pins IC7-19 D86-1)
+    )
+    (net sabus2
+      (pins IC7-20 D102-1)
+    )
+    (net "Net-(IC7-REXT)"
+      (pins IC7-23 R7-1)
+    )
+    (net "Net-(IC12-REXT)"
+      (pins R12-1 IC12-23)
+    )
+    (net "Net-(IC1-REXT)"
+      (pins R1-1 IC1-23)
+    )
+    (net "Net-(IC9-REXT)"
+      (pins R9-1 IC9-23)
+    )
+    (net SDI
+      (pins IC1-2)
+    )
+    (net g0bus0
+      (pins IC1-5 D3-1)
+    )
+    (net g0bus1
+      (pins IC1-6 D10-1)
+    )
+    (net g0bus2
+      (pins IC1-7 D4-1)
+    )
+    (net g0bus3
+      (pins IC1-8 D7-1)
+    )
+    (net g0bus4
+      (pins IC1-9 D13-1)
+    )
+    (net g0bus5
+      (pins IC1-10 D12-1)
+    )
+    (net g0bus6
+      (pins IC1-11 D11-1)
+    )
+    (net g0bus7
+      (pins IC1-12 D14-1)
+    )
+    (net g1bus0
+      (pins IC1-13 D5-1)
+    )
+    (net g1bus1
+      (pins IC1-14 D8-1)
+    )
+    (net g1bus2
+      (pins IC1-15 D9-1)
+    )
+    (net g1bus3
+      (pins IC1-16 D6-1)
+    )
+    (net g2bus0
+      (pins IC1-17 D29-1)
+    )
+    (net g2bus1
+      (pins IC1-18 D33-1)
+    )
+    (net g2bus2
+      (pins IC1-19 D34-1)
+    )
+    (net g2bus3
+      (pins IC1-20 D30-1)
+    )
+    (net "Net-(IC10-REXT)"
+      (pins R10-1 IC10-23)
+    )
+    (net abus6
+      (pins IC6-5 D85-1)
+    )
+    (net abus7
+      (pins IC6-6 D70-1)
+    )
+    (net abus8
+      (pins IC6-7 D79-1)
+    )
+    (net abus9
+      (pins IC6-8 D93-1)
+    )
+    (net abus10
+      (pins IC6-9 D103-1)
+    )
+    (net abus11
+      (pins IC6-10 D95-1)
+    )
+    (net abus12
+      (pins IC6-11 D77-1)
+    )
+    (net abus13
+      (pins IC6-12 D87-1)
+    )
+    (net abus14
+      (pins IC6-13 D71-1)
+    )
+    (net abus15
+      (pins IC6-14 D80-1)
+    )
+    (net abus16
+      (pins IC6-15 D94-1)
+    )
+    (net abus17
+      (pins IC6-16 D104-1)
+    )
+    (net abus18
+      (pins IC6-17 D96-1)
+    )
+    (net abus19
+      (pins IC6-18 D78-1)
+    )
+    (net abus20
+      (pins IC6-19 D88-1)
+    )
+    (net abus21
+      (pins IC6-20 D72-1)
+    )
+    (net "Net-(IC6-REXT)"
+      (pins IC6-23 R6-1)
+    )
+    (net bbus16
+      (pins IC9-5 D136-1)
+    )
+    (net bbus17
+      (pins IC9-6 D146-1)
+    )
+    (net bbus18
+      (pins IC9-7 D138-1)
+    )
+    (net bbus19
+      (pins IC9-8 D120-1)
+    )
+    (net bbus20
+      (pins IC9-9 D130-1)
+    )
+    (net bbus21
+      (pins IC9-10 D115-1)
+    )
+    (net bbus22
+      (pins IC9-11 D125-1)
+    )
+    (net bbus23
+      (pins IC9-12 D139-1)
+    )
+    (net bbus24
+      (pins IC9-13 D147-1)
+    )
+    (net bbus25
+      (pins IC9-14 D141-1)
+    )
+    (net bbus26
+      (pins IC9-15 D123-1)
+    )
+    (net bbus27
+      (pins IC9-16 D131-1)
+    )
+    (net bbus28
+      (pins IC9-17 D116-1)
+    )
+    (net bbus29
+      (pins IC9-18 D126-1)
+    )
+    (net bbus30
+      (pins IC9-19 D140-1)
+    )
+    (net bbus31
+      (pins IC9-20 D148-1)
+    )
+    (net "Net-(IC10-SDI)"
+      (pins IC9-22 IC10-2)
+    )
+    (net "Net-(IC11-REXT)"
+      (pins R11-1 IC11-23)
+    )
+    (net "Net-(IC3-REXT)"
+      (pins R3-1 IC3-23)
+    )
+    (net "Net-(IC3-SDO)"
+      (pins IC4-2 IC3-22)
+    )
+    (net ebus2
+      (pins IC4-5 D53-1)
+    )
+    (net ebus3
+      (pins IC4-6 D61-1)
+    )
+    (net ebus4
+      (pins IC4-7 D55-1)
+    )
+    (net ebus5
+      (pins IC4-8 D41-1)
+    )
+    (net ebus6
+      (pins IC4-9 D49-1)
+    )
+    (net ebus7
+      (pins IC4-10 D38-1)
+    )
+    (net ebus8
+      (pins IC4-11 D44-1)
+    )
+    (net ebus9
+      (pins IC4-12 D54-1)
+    )
+    (net ebus10
+      (pins IC4-13 D62-1)
+    )
+    (net ebus11
+      (pins IC4-14 D56-1)
+    )
+    (net ebus12
+      (pins IC4-15 D42-1)
+    )
+    (net ebus13
+      (pins IC4-16 D50-1)
+    )
+    (net fbus3
+      (pins IC4-17 D63-1)
+    )
+    (net fbus2
+      (pins IC4-18 D57-1)
+    )
+    (net fbus1
+      (pins IC4-19 D47-1)
+    )
+    (net fbus0
+      (pins IC4-20 D39-1)
+    )
+    (net "Net-(IC4-REXT)"
+      (pins IC4-23 R4-1)
+    )
+    (net dbus0
+      (pins IC3-5 D15-1)
+    )
+    (net dbus1
+      (pins IC3-6 D19-1)
+    )
+    (net dbus2
+      (pins IC3-7 D23-1)
+    )
+    (net dbus3
+      (pins IC3-8 D27-1)
+    )
+    (net dbus4
+      (pins IC3-9 D25-1)
+    )
+    (net dbus5
+      (pins IC3-10 D17-1)
+    )
+    (net dbus6
+      (pins IC3-11 D21-1)
+    )
+    (net dbus7
+      (pins IC3-12 D16-1)
+    )
+    (net dbus8
+      (pins IC3-13 D20-1)
+    )
+    (net dbus9
+      (pins IC3-14 D24-1)
+    )
+    (net dbus10
+      (pins IC3-15 D28-1)
+    )
+    (net dbus11
+      (pins IC3-16 D26-1)
+    )
+    (net dbus12
+      (pins IC3-17 D18-1)
+    )
+    (net dbus13
+      (pins IC3-18 D22-1)
+    )
+    (net ebus0
+      (pins IC3-19 D37-1)
+    )
+    (net ebus1
+      (pins IC3-20 D43-1)
+    )
+    (net "Net-(IC11-SDO)"
+      (pins IC12-2 IC11-22)
+    )
+    (net cbus26
+      (pins IC12-5 D166-1)
+    )
+    (net cbus27
+      (pins IC12-6 D173-1)
+    )
+    (net cbus28
+      (pins IC12-7 D158-1)
+    )
+    (net cbus29
+      (pins IC12-8 D169-1)
+    )
+    (net cbus30
+      (pins IC12-9 D183-1)
+    )
+    (net cbus31
+      (pins IC12-10 D190-1)
+    )
+    (net cbus32
+      (pins IC12-11 D185-1)
+    )
+    (net cbus33
+      (pins IC12-12 D167-1)
+    )
+    (net cbus34
+      (pins IC12-13 D174-1)
+    )
+    (net scbus0
+      (pins IC12-14 D153-1)
+    )
+    (net scbus1
+      (pins IC12-15 D163-1)
+    )
+    (net scbus2
+      (pins IC12-16 D176-1)
+    )
+    (net "unconnected-(IC12-OUT12-Pad17)"
+      (pins IC12-17)
+    )
+    (net "unconnected-(IC12-OUT13-Pad18)"
+      (pins IC12-18)
+    )
+    (net "unconnected-(IC12-OUT14-Pad19)"
+      (pins IC12-19)
+    )
+    (net "unconnected-(IC12-OUT15-Pad20)"
+      (pins IC12-20)
+    )
+    (net SDO
+      (pins IC12-22)
+    )
+    (net bbus32
+      (pins IC10-5 D142-1)
+    )
+    (net bbus33
+      (pins IC10-6 D124-1)
+    )
+    (net bbus34
+      (pins IC10-7 D132-1)
+    )
+    (net sbbus0
+      (pins IC10-8 D112-1)
+    )
+    (net sbbus1
+      (pins IC10-9 D127-1)
+    )
+    (net sbbus2
+      (pins IC10-10 D143-1)
+    )
+    (net cbus0
+      (pins IC10-11 D154-1)
+    )
+    (net cbus1
+      (pins IC10-12 D160-1)
+    )
+    (net cbus2
+      (pins IC10-13 D175-1)
+    )
+    (net cbus3
+      (pins IC10-14 D186-1)
+    )
+    (net cbus4
+      (pins IC10-15 D177-1)
+    )
+    (net cbus5
+      (pins IC10-16 D159-1)
+    )
+    (net cbus6
+      (pins IC10-17 D170-1)
+    )
+    (net cbus7
+      (pins IC10-18 D155-1)
+    )
+    (net cbus8
+      (pins IC10-19 D164-1)
+    )
+    (net cbus9
+      (pins IC10-20 D178-1)
+    )
+    (net "Net-(IC10-SDO)"
+      (pins IC10-22 IC11-2)
+    )
+    (net cbus10
+      (pins IC11-5 D187-1)
+    )
+    (net cbus11
+      (pins IC11-6 D180-1)
+    )
+    (net cbus12
+      (pins IC11-7 D161-1)
+    )
+    (net cbus13
+      (pins IC11-8 D171-1)
+    )
+    (net cbus14
+      (pins IC11-9 D156-1)
+    )
+    (net cbus15
+      (pins IC11-10 D165-1)
+    )
+    (net cbus16
+      (pins IC11-11 D179-1)
+    )
+    (net cbus17
+      (pins IC11-12 D188-1)
+    )
+    (net cbus18
+      (pins IC11-13 D181-1)
+    )
+    (net cbus19
+      (pins IC11-14 D162-1)
+    )
+    (net cbus20
+      (pins IC11-15 D172-1)
+    )
+    (net cbus21
+      (pins IC11-16 D157-1)
+    )
+    (net cbus22
+      (pins IC11-17 D168-1)
+    )
+    (net cbus23
+      (pins IC11-18 D182-1)
+    )
+    (net cbus24
+      (pins IC11-19 D189-1)
+    )
+    (net cbus25
+      (pins IC11-20 D184-1)
+    )
+    (class kicad_default CLK "LA{slash}" "Net-(IC1-REXT)" "Net-(IC1-SDO)"
+      "Net-(IC10-REXT)" "Net-(IC10-SDI)" "Net-(IC10-SDO)" "Net-(IC11-REXT)"
+      "Net-(IC11-SDO)" "Net-(IC12-REXT)" "Net-(IC2-REXT)" "Net-(IC2-SDO)"
+      "Net-(IC3-REXT)" "Net-(IC3-SDO)" "Net-(IC4-REXT)" "Net-(IC4-SDO)" "Net-(IC5-REXT)"
+      "Net-(IC5-SDO)" "Net-(IC6-REXT)" "Net-(IC6-SDO)" "Net-(IC7-REXT)" "Net-(IC7-SDO)"
+      "Net-(IC8-REXT)" "Net-(IC8-SDO)" "Net-(IC9-REXT)" "OE{slash}" SDI SDO
+      abus0 abus1 abus10 abus11 abus12 abus13 abus14 abus15 abus16 abus17
+      abus18 abus19 abus2 abus20 abus21 abus22 abus23 abus24 abus25 abus26
+      abus27 abus28 abus29 abus3 abus30 abus31 abus32 abus33 abus34 abus4
+      abus5 abus6 abus7 abus8 abus9 bbus0 bbus1 bbus10 bbus11 bbus12 bbus13
+      bbus14 bbus15 bbus16 bbus17 bbus18 bbus19 bbus2 bbus20 bbus21 bbus22
+      bbus23 bbus24 bbus25 bbus26 bbus27 bbus28 bbus29 bbus3 bbus30 bbus31
+      bbus32 bbus33 bbus34 bbus4 bbus5 bbus6 bbus7 bbus8 bbus9 cbus0 cbus1
+      cbus10 cbus11 cbus12 cbus13 cbus14 cbus15 cbus16 cbus17 cbus18 cbus19
+      cbus2 cbus20 cbus21 cbus22 cbus23 cbus24 cbus25 cbus26 cbus27 cbus28
+      cbus29 cbus3 cbus30 cbus31 cbus32 cbus33 cbus34 cbus4 cbus5 cbus6 cbus7
+      cbus8 cbus9 dbus0 dbus1 dbus10 dbus11 dbus12 dbus13 dbus2 dbus3 dbus4
+      dbus5 dbus6 dbus7 dbus8 dbus9 ebus0 ebus1 ebus10 ebus11 ebus12 ebus13
+      ebus2 ebus3 ebus4 ebus5 ebus6 ebus7 ebus8 ebus9 fbus0 fbus1 fbus10 fbus11
+      fbus12 fbus13 fbus2 fbus3 fbus4 fbus5 fbus6 fbus7 fbus8 fbus9 g0bus0
+      g0bus1 g0bus2 g0bus3 g0bus4 g0bus5 g0bus6 g0bus7 g1bus0 g1bus1 g1bus2
+      g1bus3 g2bus0 g2bus1 g2bus2 g2bus3 g3bus0 g3bus1 g3bus2 g3bus3 g4bus0
+      g4bus1 g4bus2 g4bus3 g5bus0 g5bus1 g5bus2 g5bus3 g6bus0 g6bus1 g6bus2
+      g6bus3 sabus0 sabus1 sabus2 sbbus0 sbbus1 sbbus2 scbus0 scbus1 scbus2
+      "unconnected-(IC12-OUT12-Pad17)" "unconnected-(IC12-OUT13-Pad18)" "unconnected-(IC12-OUT14-Pad19)"
+      "unconnected-(IC12-OUT15-Pad20)"
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 250)
+        (clearance 127)
+      )
+    )
+    (class Power,Default +5V GND
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 400)
+        (clearance 127)
+      )
+    )
+  )
+  (wiring
+  )
+)
