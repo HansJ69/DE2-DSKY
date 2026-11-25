@@ -124,11 +124,11 @@ DE2-DSKY/
 
 ## Stav projektu
 
-- [ ] Návrh schématu (PCB)
-- [ ] Výběr součástek
-- [ ] Návrh PCB
+- [x] Návrh schématu (PCB)
+- [x] Výběr součástek
+- [x] Návrh PCB
 - [ ] BOM
-- [ ] Schema zapojení (přibližné)
+- [x] Schema zapojení (přibližné)
 - [ ] Blokové schéma
 - [ ] Dokumentace a fotky
 
