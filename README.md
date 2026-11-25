@@ -84,9 +84,8 @@ Aby se ušetřily piny Pica, je většina periferií řízena **multiplexně**:
 
 ## Software
 
-- Jazyk / platforma: [doplnit]
+- Jazyk / platforma: MicroPython
 - Knihovny: [doplnit]
-- [doplnit: jak se nahrává firmware]
 
 ## Fotky / ukázka
 
