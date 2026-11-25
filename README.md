@@ -109,17 +109,37 @@ Aby se ušetřily piny Pica, je většina periferií řízena **multiplexně**:
 
 ```
 DE2-DSKY/
-├── docs/                # dokumentace, schémata, datasheety
-│   ├── datasheets/      # PDF součástek
-│   └── verb-noun.md     # tabulka implementovaných VERB/NOUN
-├── pictures/            
-├── pcb/                 # projekt desky (KiCad)
-│   └── gerbers/         # soubory pro výrobu
-├── models/              # 3D modely
-├── src/                 # firmware pro Pico
+├── docs/                         # prostor pro dokumentaci (zatím prázdný)
+├── models/                       # prostor pro 3D modely (zatím prázdný)
+├── pictures/                     # obrázky a schémata použité v README
+│   ├── blok_shem_obvodu.png
+│   ├── dsky_interface.png
+│   └── dsky_interface_diagram.png
+├── pcb/                          # návrhy desek v KiCadu
+│   ├── led_display/              # deska LED displeje
+│   │   ├── DSKY_led_display.kicad_pro
+│   │   ├── DSKY_led_display.kicad_sch
+│   │   ├── DSKY_led_display.kicad_pcb
+│   │   └── DSKY_led_display.pdf
+│   ├── lights_keyboard/          # deska kontrolek a klávesnice
+│   │   ├── lights_keyboard.kicad_pro
+│   │   ├── lights_keyboard.kicad_sch
+│   │   ├── lights_keyboard.kicad_pcb
+│   │   ├── buttonmatrix.kicad_sch
+│   │   ├── external_connections.kicad_sch
+│   │   ├── lights.kicad_sch
+│   │   └── Gerber Files/         # výrobní data (Gerbery a vrtání)
+│   └── main_board/               # hlavní deska
+│       ├── main_board.kicad_pro
+│       ├── main_board.kicad_sch
+│       └── main_board.kicad_pcb
+├── src/                          # prostor pro firmware (zatím prázdný)
+│   └── .gitkeep
 ├── LICENSE
 └── README.md
 ```
+
+V podsložkách s PCB jsou také pomocné soubory KiCadu, knihovny a zálohy návrhů. Výrobní data desky klávesnice jsou uložena také jako archiv `Gerber Files.zip`.
 
 ## Stav projektu
 
