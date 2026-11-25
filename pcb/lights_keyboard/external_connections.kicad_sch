@@ -2792,7 +2792,7 @@
 		(dnp no)
 		(uuid "19bd7227-39db-4fd7-9209-45d5247476a8")
 		(property "Reference" "J1"
-			(at 170.18 52.07 0)
+			(at 170.434 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2802,7 +2802,7 @@
 			)
 		)
 		(property "Value" "Conn_2Rows-31Pins"
-			(at 176.276 54.864 0)
+			(at 176.53 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
