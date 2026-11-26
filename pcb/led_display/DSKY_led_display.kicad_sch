@@ -11,6 +11,396 @@
 		(company "Jan Pikner")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x10"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x10"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x10_1_1"
+				(rectangle
+					(start -1.27 11.43)
+					(end 1.27 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1362,6 +1752,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "project-symbols:105133-0001"
 			(pin_names
 				(offset 1.016)
@@ -1660,16 +2189,16 @@
 		)
 	)
 	(junction
-		(at 76.2 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04714e47-6109-44ff-b07a-f34b8b5b8cc8")
-	)
-	(junction
 		(at 575.31 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "051be15a-faf8-49f7-8439-e7e29fed4683")
+	)
+	(junction
+		(at 346.71 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08a0bd68-4ec7-4bc5-ba7c-956a91921342")
 	)
 	(junction
 		(at 613.41 107.95)
@@ -1696,6 +2225,12 @@
 		(uuid "17741a49-b5c4-46d8-a8f2-f48becd9533a")
 	)
 	(junction
+		(at 346.71 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18c02971-d590-4f11-b5ed-dae6d83915de")
+	)
+	(junction
 		(at 508 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1712,12 +2247,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27277649-0fc4-41e7-8d6f-20afcda69e03")
-	)
-	(junction
-		(at 102.87 334.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28a8958d-b7ac-4fdf-a397-d9a9e144cce3")
 	)
 	(junction
 		(at 614.68 322.58)
@@ -1742,6 +2271,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c1ff760-8015-4660-93d1-eb8b1e51007a")
+	)
+	(junction
+		(at 76.2 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cd4c62d-fe0f-423d-9967-a9265c5ad998")
 	)
 	(junction
 		(at 580.39 322.58)
@@ -1798,12 +2333,6 @@
 		(uuid "3dbe9ea8-4c6c-4d11-82a0-397e207e9d03")
 	)
 	(junction
-		(at 226.06 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f03f4b5-c8dc-457d-b4f3-e387bcca86b0")
-	)
-	(junction
 		(at 511.81 321.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1822,10 +2351,10 @@
 		(uuid "46ee0073-929d-4631-81ba-a26a3dcc6023")
 	)
 	(junction
-		(at 224.79 149.86)
+		(at 96.52 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "473cc9b7-070b-4920-af8f-d950cd2a3142")
+		(uuid "4c93e44e-cb4f-4432-ac55-ae2d85d3049e")
 	)
 	(junction
 		(at 233.68 29.21)
@@ -1852,16 +2381,22 @@
 		(uuid "5ca99207-eb27-4549-9c94-b699e5c795c5")
 	)
 	(junction
-		(at 218.44 318.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d4886b9-163c-4609-a158-36ddfdc096f3")
-	)
-	(junction
 		(at 83.82 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f8675fc-cb86-4e43-abff-93f45dd84ff7")
+	)
+	(junction
+		(at 223.52 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "622fe0ca-4743-4c11-af3a-ef77b8e4baca")
+	)
+	(junction
+		(at 226.06 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63255b7e-cc85-4e3f-a445-abeb98263fa8")
 	)
 	(junction
 		(at 577.85 218.44)
@@ -1876,12 +2411,6 @@
 		(uuid "675362bd-6a94-4f98-9516-5cbdc2994f54")
 	)
 	(junction
-		(at 96.52 260.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68234477-0a80-46a0-afef-c0412be293b9")
-	)
-	(junction
 		(at 608.33 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1892,6 +2421,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d4b382d-0e66-4805-9133-4cdcac32fc81")
+	)
+	(junction
+		(at 219.71 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d5d3117-d640-4ee0-b885-8e2156adcc81")
 	)
 	(junction
 		(at 546.1 549.91)
@@ -1930,6 +2465,12 @@
 		(uuid "7f64dde0-3c84-47af-ba65-9348252b9dc2")
 	)
 	(junction
+		(at 76.2 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80bc38f2-9028-4e7b-8555-f8c915d7d63a")
+	)
+	(junction
 		(at 575.31 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1948,28 +2489,22 @@
 		(uuid "86323a98-c6d8-437b-a3f3-f1ec5e267285")
 	)
 	(junction
-		(at 100.33 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88822c33-0d12-4f73-9753-3170ee34826e")
-	)
-	(junction
 		(at 542.29 340.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90456fd7-44cc-4333-bf8a-172217c4d47a")
 	)
 	(junction
+		(at 100.33 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "909f2dc5-893a-4e95-b67e-e569909c7166")
+	)
+	(junction
 		(at 546.1 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99b57c6a-71f7-487f-81c2-d5bb1462601a")
-	)
-	(junction
-		(at 219.71 264.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c233786-7760-4e75-a195-8791423259f8")
 	)
 	(junction
 		(at 513.08 217.17)
@@ -2002,6 +2537,12 @@
 		(uuid "ab2b6134-acce-49ac-9c26-1c793e88d960")
 	)
 	(junction
+		(at 102.87 334.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeaf31e0-bf3e-4f46-9774-37768d734a29")
+	)
+	(junction
 		(at 576.58 457.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2026,22 +2567,16 @@
 		(uuid "b836aae4-0b1f-48f0-b13c-0bbb0f33f089")
 	)
 	(junction
-		(at 226.06 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8ef6c5d-3890-4dba-9262-ee8150460046")
-	)
-	(junction
-		(at 76.2 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be970ebf-2927-46d1-9533-433fc7f25237")
-	)
-	(junction
 		(at 232.41 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1bfc15d-7f38-4449-b939-9efa3e2d0118")
+	)
+	(junction
+		(at 224.79 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2f0cef0-c5a6-46c8-8955-7f4779b1322d")
 	)
 	(junction
 		(at 227.33 266.7)
@@ -2056,16 +2591,16 @@
 		(uuid "c5f40399-6f3c-4107-a5fc-2a8d23466803")
 	)
 	(junction
-		(at 76.2 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c68408b7-ab28-40bd-bb0b-b35ff15da2f0")
-	)
-	(junction
 		(at 541.02 549.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6c92b47-e4a6-4b1d-8e60-641433682002")
+	)
+	(junction
+		(at 226.06 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cab5ef24-684d-47b5-bf2d-f1712f628e66")
 	)
 	(junction
 		(at 609.6 127)
@@ -2122,12 +2657,6 @@
 		(uuid "dfa6f3e7-c70d-42e5-979e-3e0e48a37e4b")
 	)
 	(junction
-		(at 223.52 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e386b1bd-5ed4-4aa3-9733-4c54a1b7df4e")
-	)
-	(junction
 		(at 473.71 568.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2146,6 +2675,12 @@
 		(uuid "ea7f08b6-ee60-44d6-9663-dfb0260c4851")
 	)
 	(junction
+		(at 76.2 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2443050-0667-47f0-b06a-ff0f6bafaac0")
+	)
+	(junction
 		(at 575.31 549.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2162,6 +2697,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9d0db44-719c-46e6-adaa-97943135e1f6")
+	)
+	(junction
+		(at 218.44 318.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbe4e350-8adb-4767-b3c0-f2bee83b32c7")
 	)
 	(junction
 		(at 541.02 322.58)
@@ -9767,6 +10308,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 295.91) (xy 346.71 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4470b7ca-05a9-4db9-b10c-c2c3e96adc3c")
+	)
+	(wire
+		(pts
 			(xy 513.08 203.2) (xy 513.08 217.17)
 		)
 		(stroke
@@ -9984,6 +10535,16 @@
 			(type default)
 		)
 		(uuid "4759cd83-4162-4629-bd98-1d29a8410a5b")
+	)
+	(wire
+		(pts
+			(xy 346.71 273.05) (xy 346.71 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475ca311-d83e-4725-869f-0f8dc25079b1")
 	)
 	(wire
 		(pts
@@ -13347,6 +13908,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 280.67) (xy 346.71 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f30e34-c498-4847-99f7-fb1463b16f02")
+	)
+	(wire
+		(pts
 			(xy 534.67 574.04) (xy 534.67 538.48)
 		)
 		(stroke
@@ -13424,6 +13995,16 @@
 			(type default)
 		)
 		(uuid "72c998de-bd84-4f04-818e-dfbd98ef781a")
+	)
+	(wire
+		(pts
+			(xy 340.36 288.29) (xy 346.71 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e10046-609e-497b-a9e9-9deea883b828")
 	)
 	(wire
 		(pts
@@ -13754,6 +14335,16 @@
 			(type default)
 		)
 		(uuid "778ab85e-eb30-4c64-b57c-c863eb57b9f3")
+	)
+	(wire
+		(pts
+			(xy 336.55 278.13) (xy 346.71 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7796682c-9d3a-45bd-b8ef-558df74dabae")
 	)
 	(wire
 		(pts
@@ -15794,6 +16385,16 @@
 			(type default)
 		)
 		(uuid "99a90215-c44a-4fef-96e1-d45b39b53066")
+	)
+	(wire
+		(pts
+			(xy 340.36 290.83) (xy 346.71 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b3f074-aa32-45cb-9e77-49f29a3fec8c")
 	)
 	(bus
 		(pts
@@ -18805,6 +19406,16 @@
 		)
 		(uuid "c266b93c-827d-466e-ae66-ba48caa1fd42")
 	)
+	(wire
+		(pts
+			(xy 340.36 285.75) (xy 346.71 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2873e44-93a2-47a5-a349-ca2e5378fb94")
+	)
 	(bus
 		(pts
 			(xy 495.3 381) (xy 497.84 381)
@@ -20427,6 +21038,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 293.37) (xy 346.71 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90c8473-c683-4ee0-8628-dc4ea0d7ab9f")
+	)
+	(wire
+		(pts
 			(xy 605.79 572.77) (xy 605.79 558.8)
 		)
 		(stroke
@@ -21685,6 +22306,16 @@
 		)
 		(uuid "eba0595b-dad3-4c61-bc10-9326be24ac29")
 	)
+	(wire
+		(pts
+			(xy 340.36 283.21) (xy 346.71 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba164ad-718b-4484-b9a2-11a6fe1797f7")
+	)
 	(bus
 		(pts
 			(xy 259.08 228.6) (xy 259.08 226.06)
@@ -21824,6 +22455,16 @@
 			(type default)
 		)
 		(uuid "edaa1bba-0331-417c-b9d5-00fc8f7c310d")
+	)
+	(wire
+		(pts
+			(xy 336.55 273.05) (xy 346.71 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb0bbe4-b82c-4e9a-badf-84a5e7802469")
 	)
 	(polyline
 		(pts
@@ -27789,6 +28430,30 @@
 			)
 		)
 	)
+	(global_label "LA{slash}"
+		(shape input)
+		(at 340.36 288.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b8adae2-14e7-40b3-a33a-e4336340c597")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.5818 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "sbbus[0..2]"
 		(shape output)
 		(at 52.07 346.71 180)
@@ -28034,6 +28699,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 340.36 285.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97f9062b-6edd-4421-9ed5-5784b798dd97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.4609 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -28495,6 +29184,30 @@
 			)
 		)
 	)
+	(global_label "SDO"
+		(shape output)
+		(at 340.36 280.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d71f5ef6-ef9c-423a-b239-70223fb22165")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.219 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LA{slash}"
 		(shape input)
 		(at 45.72 144.78 180)
@@ -28556,6 +29269,30 @@
 		(uuid "e654a778-fe52-4fa3-9d3b-a66e80b4058f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.4109 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "OE{slash}"
+		(shape input)
+		(at 340.36 290.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e69ab969-98b9-44cd-b8ab-ed737907730a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.219 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28634,6 +29371,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 340.36 283.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efac7bfd-557a-494b-9e0f-807cc8f273d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.9447 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -55758,6 +56519,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 336.55 278.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168af010-0127-46cc-ad61-d15ccfa2c27e")
+		(property "Reference" "#PWR039"
+			(at 340.36 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 332.74 278.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 336.55 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6162bc68-66d4-4256-b4d0-a3bf8f98f6bc")
+		)
+		(instances
+			(project "DSKY_led_display"
+				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 80.01 40.64 90)
 		(unit 1)
@@ -55917,84 +56757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 76.2 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27ea638e-4a0e-4d44-8b58-061361831d78")
-		(property "Reference" "#PWR09"
-			(at 76.2 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 76.2 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e180bd9-c35a-4329-95b7-1559eedc5a7c")
-		)
-		(instances
-			(project "DSKY_led_display"
-				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 222.25 318.77 90)
 		(unit 1)
@@ -56069,162 +56831,6 @@
 			(project "DSKY_led_display"
 				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 226.06 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "327c513d-fa5c-4fd3-afe8-257749037e8e")
-		(property "Reference" "#PWR07"
-			(at 226.06 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 226.06 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c22ea36-d455-4322-8a56-64521432ccde")
-		)
-		(instances
-			(project "DSKY_led_display"
-				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 224.79 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33507324-6888-451d-a449-24e7ba7a5b9c")
-		(property "Reference" "#PWR014"
-			(at 224.79 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 224.79 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 224.79 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "952b449f-ef90-4588-b6b2-f4fb3071e269")
-		)
-		(instances
-			(project "DSKY_led_display"
-				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -56311,8 +56917,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 96.52 260.35 0)
+		(lib_id "power:VDD")
+		(at 102.87 334.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -56321,9 +56927,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "36b1f9db-86b9-4976-b214-7f4b9b10a710")
+		(uuid "3b0584d9-9a44-4cbf-b3bc-37762a4f2280")
 		(property "Reference" "#PWR026"
-			(at 96.52 264.16 0)
+			(at 102.87 337.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56333,8 +56939,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 96.52 255.27 0)
+		(property "Value" "VDD"
+			(at 102.87 328.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56344,7 +56950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 260.35 0)
+			(at 102.87 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56355,7 +56961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 260.35 0)
+			(at 102.87 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56365,8 +56971,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 96.52 260.35 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 102.87 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56377,7 +56983,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "502a6242-0281-484b-a624-a87466b333a7")
+			(uuid "58002e72-0e65-4c8d-a2c1-f5028b6b409b")
 		)
 		(instances
 			(project "DSKY_led_display"
@@ -56468,6 +57074,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 336.55 273.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42ed49b8-eeef-4bed-ae21-34d15e74ad2e")
+		(property "Reference" "#PWR037"
+			(at 340.36 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 332.74 273.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 336.55 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e0ba43f-190d-4d93-8681-440551d9c431")
+		)
+		(instances
+			(project "DSKY_led_display"
+				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 104.14 189.23 90)
 		(unit 1)
@@ -56542,6 +57227,84 @@
 			(project "DSKY_led_display"
 				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 76.2 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "475d4eec-6c29-45dd-aae2-2817103b549f")
+		(property "Reference" "#PWR011"
+			(at 76.2 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 76.2 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 76.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb3b1b36-a8ad-4e39-94fa-d978667cf04f")
+		)
+		(instances
+			(project "DSKY_led_display"
+				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -57186,6 +57949,84 @@
 			(project "DSKY_led_display"
 				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 100.33 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f6a189e-cf36-4422-b1b0-609c47ae36ea")
+		(property "Reference" "#PWR017"
+			(at 100.33 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 100.33 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 100.33 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42412e32-1b3b-4c10-9a1a-6046c3d0ced4")
+		)
+		(instances
+			(project "DSKY_led_display"
+				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -58155,8 +58996,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 100.33 189.23 0)
+		(lib_id "power:VDD")
+		(at 96.52 260.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -58165,9 +59006,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7d525087-d3fb-4606-abfc-4d9f8bfbc95b")
-		(property "Reference" "#PWR020"
-			(at 100.33 193.04 0)
+		(uuid "7afd0ad9-1f72-4ab1-a854-c37bb60d5e94")
+		(property "Reference" "#PWR032"
+			(at 96.52 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58177,8 +59018,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 100.33 184.15 0)
+		(property "Value" "VDD"
+			(at 96.52 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58188,7 +59029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 189.23 0)
+			(at 96.52 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58199,7 +59040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 189.23 0)
+			(at 96.52 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58209,8 +59050,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 100.33 189.23 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 96.52 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58221,12 +59062,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "49a08e9d-6feb-4c20-8813-b8920f2c2f6e")
+			(uuid "c7714bf4-a5ff-4b58-a098-85c5653145fc")
 		)
 		(instances
 			(project "DSKY_led_display"
 				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
-					(reference "#PWR020")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -58465,6 +59306,84 @@
 			(project "DSKY_led_display"
 				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 226.06 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ede1259-e374-42ec-bc13-5424a5280491")
+		(property "Reference" "#PWR09"
+			(at 226.06 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 226.06 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 226.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5cb25fe-81c1-415e-8574-815f6cd59225")
+		)
+		(instances
+			(project "DSKY_led_display"
+				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -60008,6 +60927,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 226.06 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1dcb325-2bdf-483a-a14f-c6ef3621f2a2")
+		(property "Reference" "#PWR07"
+			(at 226.06 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 226.06 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 226.06 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6768d6e-0033-4547-912c-973b8bca2cc3")
+		)
+		(instances
+			(project "DSKY_led_display"
+				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 219.71 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5a7065b-e050-458a-8880-3763a006bc65")
+		(property "Reference" "#PWR035"
+			(at 219.71 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 219.71 259.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 219.71 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0055bf82-71c2-48e5-9996-10a58aa6eca0")
+		)
+		(instances
+			(project "DSKY_led_display"
+				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 86.36 90)
 		(unit 1)
@@ -60081,84 +61156,6 @@
 			(project "DSKY_led_display"
 				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 226.06 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7d81165-2ef1-423f-bdc3-318eeb86843c")
-		(property "Reference" "#PWR011"
-			(at 226.06 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 226.06 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b49f4514-804f-47fd-8f74-2ca482e3da26")
-		)
-		(instances
-			(project "DSKY_led_display"
-				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -60646,84 +61643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 219.71 264.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0131da1-09b8-40b0-9108-e941eb802028")
-		(property "Reference" "#PWR032"
-			(at 219.71 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 219.71 259.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 219.71 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51dbab21-64fe-497e-af0e-0d99be262a77")
-		)
-		(instances
-			(project "DSKY_led_display"
-				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 110.49 336.55 90)
 		(unit 1)
@@ -60962,8 +61881,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 76.2 137.16 0)
+		(lib_id "power:VDD")
+		(at 224.79 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -60972,9 +61891,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd359184-e994-4d57-a252-53e83672714b")
-		(property "Reference" "#PWR017"
-			(at 76.2 140.97 0)
+		(uuid "ce7fd4da-5953-41c5-9778-5e5a850c5d60")
+		(property "Reference" "#PWR020"
+			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60984,8 +61903,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 76.2 132.08 0)
+		(property "Value" "VDD"
+			(at 224.79 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -60995,7 +61914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 137.16 0)
+			(at 224.79 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61006,7 +61925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 137.16 0)
+			(at 224.79 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61016,8 +61935,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 137.16 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 224.79 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61028,12 +61947,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1203f37a-0a17-4c84-92d8-c920680b78c0")
+			(uuid "f07cfff9-8f2f-4b85-9db3-43dd840e66af")
 		)
 		(instances
 			(project "DSKY_led_display"
 				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -61364,6 +62283,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 76.2 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d46fec51-a3e3-416f-ba7c-89610d0c5ad4")
+		(property "Reference" "#PWR014"
+			(at 76.2 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 76.2 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 76.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6ba21b1-8404-4e49-b8e2-b24662e00f05")
+		)
+		(instances
+			(project "DSKY_led_display"
+				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SCT2024CSSG:SCT2024CSSG")
 		(at 45.72 137.16 0)
 		(unit 1)
@@ -61686,8 +62683,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 218.44 318.77 0)
+		(lib_id "power:VDD")
+		(at 76.2 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -61696,9 +62693,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da252a2a-36bb-4723-9dfe-66d9f46623b9")
-		(property "Reference" "#PWR035"
-			(at 218.44 322.58 0)
+		(uuid "dad8068d-12bb-442b-85aa-4a280e2b2ac3")
+		(property "Reference" "#PWR01"
+			(at 76.2 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61708,8 +62705,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 218.44 313.69 0)
+		(property "Value" "VDD"
+			(at 76.2 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -61719,7 +62716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 318.77 0)
+			(at 76.2 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61730,7 +62727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 318.77 0)
+			(at 76.2 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61740,8 +62737,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 218.44 318.77 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 76.2 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61752,12 +62749,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7a37541-222b-4d0c-981b-065c212c90cb")
+			(uuid "7b730ec9-7b81-4edb-b13e-9a18fab4be78")
 		)
 		(instances
 			(project "DSKY_led_display"
 				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
-					(reference "#PWR035")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -61920,8 +62917,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 102.87 334.01 0)
+		(lib_id "power:GND")
+		(at 346.71 302.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -61930,9 +62927,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e5b61ad5-b6f2-476f-96c2-87a836c0f025")
-		(property "Reference" "#PWR029"
-			(at 102.87 337.82 0)
+		(uuid "e2f4aaea-1acf-471a-92b5-48732122d973")
+		(property "Reference" "#PWR038"
+			(at 346.71 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61942,8 +62939,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 102.87 328.93 0)
+		(property "Value" "GND"
+			(at 346.71 307.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -61953,7 +62950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 334.01 0)
+			(at 346.71 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61964,7 +62961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 334.01 0)
+			(at 346.71 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61974,8 +62971,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 334.01 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 346.71 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61986,12 +62983,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "1284cfe2-2a2f-4bc3-9e5b-4ffe7d8ead1f")
+			(uuid "f57b1683-5f46-422c-9553-d111eb794aab")
 		)
 		(instances
 			(project "DSKY_led_display"
 				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
-					(reference "#PWR029")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 218.44 318.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e34d003b-b253-4f7a-97ef-b9c862fa8854")
+		(property "Reference" "#PWR023"
+			(at 218.44 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 218.44 313.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 218.44 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d4a7277-c6a6-4943-acf1-ce4e9a233b5a")
+		)
+		(instances
+			(project "DSKY_led_display"
+				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -62156,84 +63231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 76.2 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebd87470-4c96-43e1-b105-0c67eedcdca6")
-		(property "Reference" "#PWR01"
-			(at 76.2 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 76.2 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38461b2d-0255-4c60-a67b-67c222cc26e5")
-		)
-		(instances
-			(project "DSKY_led_display"
-				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 194.31 149.86 180)
 		(unit 1)
@@ -62385,84 +63382,6 @@
 			(project "DSKY_led_display"
 				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 223.52 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2d08833-a8f0-459e-8e5f-5a7749259263")
-		(property "Reference" "#PWR023"
-			(at 223.52 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 223.52 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4162f9d9-cbb2-4eed-afaf-8fc85822c9a3")
-		)
-		(instances
-			(project "DSKY_led_display"
-				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -62787,6 +63706,190 @@
 			(project "DSKY_led_display"
 				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 351.79 283.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbf3887e-3a4f-4006-9cc3-43f84f035129")
+		(property "Reference" "J1"
+			(at 354.33 283.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x10"
+			(at 354.33 285.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B10B-XH-A_1x10_P2.50mm_Vertical"
+			(at 351.79 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 351.79 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b073898f-9dab-45a9-b1b2-5280df68ec9a")
+		)
+		(pin "2"
+			(uuid "6b09526b-2f91-479e-8806-7df07a49cae7")
+		)
+		(pin "4"
+			(uuid "ec7e95be-5d80-4094-871a-c0204a111265")
+		)
+		(pin "8"
+			(uuid "127ab2b2-7dca-47d5-8800-c331b664fae8")
+		)
+		(pin "5"
+			(uuid "099b3090-f57c-4b8b-9dbe-94d16d3304b3")
+		)
+		(pin "1"
+			(uuid "f3e919dc-ab84-46f5-be36-8c50abda2d2d")
+		)
+		(pin "7"
+			(uuid "445e3670-24dc-42b8-94b0-e3162e3c93fb")
+		)
+		(pin "6"
+			(uuid "49d3f764-f242-40f0-aaef-d0909e479e3d")
+		)
+		(pin "9"
+			(uuid "a30bdc81-43ea-42a9-8ab6-b92ab5b55f49")
+		)
+		(pin "10"
+			(uuid "3c1ac0bd-90cc-4675-b539-1457109fef68")
+		)
+		(instances
+			(project "DSKY_led_display"
+				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 223.52 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdc728fd-59af-4bc0-9635-625844526896")
+		(property "Reference" "#PWR029"
+			(at 223.52 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 223.52 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 223.52 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "710cdf00-1b8f-4969-a2b5-46bee82630b7")
+		)
+		(instances
+			(project "DSKY_led_display"
+				(path "/6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
