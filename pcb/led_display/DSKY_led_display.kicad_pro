@@ -548,8 +548,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -765,7 +765,7 @@
         "uuid": "6d4e8a8f-ba03-4381-ae4d-0176128b1c8d"
       }
     ],
-    "used_designators": "#PWR1-126,C1-12,D1-188,IC1-12,R1-12",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
