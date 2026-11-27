@@ -566,7 +566,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber-V7/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "DSKY_led_display.step",
